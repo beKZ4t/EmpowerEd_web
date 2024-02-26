@@ -23,6 +23,19 @@
 
     </div>
 
+
+
+    <div class="image_first">
+      <div class="text_main">
+        <div class="first_text">Learn something new everyday.</div>
+        <div class="second_text">Become professionals and ready to join the world.</div>
+
+      </div>
+      <div class="screen"><img src="@/assets/images/screen.png"> </div>
+
+
+    </div>
+
   </div>
 
 
@@ -48,6 +61,33 @@ export default {
 </script>
 
 <style scoped>
+.first_text{
+  font-size: 55px;
+  font-family: "Ubuntu-bold",sytem ui;
+
+}
+.second_text{
+  font-size: 24px;
+  font-family: "Ubuntu-regular",sytem ui;
+
+}
+.text_main{
+  width: 508.24px;
+  height: 307px;
+  padding-top: 157px;
+  padding-left: 226.69px;
+}
+.screen{
+  display: flex;
+  align-items: center;
+}
+.image_first{
+  height: 727px;
+  width: 100%;
+  background-color: #77D361;
+  display: flex;
+  justify-content: space-between;
+}
 .icon_search{
 
   display: inline-block;
@@ -130,7 +170,6 @@ export default {
   height: 48.92px;
   align-items: center;
   margin: 0 auto;
-  margin-top: 19px;
   display: flex;
   justify-content: space-between;
 }
