@@ -6,6 +6,10 @@
     font-family: 'Ubuntu-bold';
     src: url("Ubuntu/Ubuntu-Bold.ttf") format("truetype");
 }
+@font-face {
+    font-family: 'Ubuntu-regular';
+    src: url("Ubuntu/Ubuntu-Regular.ttf.ttf") format("truetype");
+}
 
 
 
