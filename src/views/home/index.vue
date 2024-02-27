@@ -110,6 +110,61 @@
       </div>
     </div>
 
+    <div class="list_course">
+      <div class="first_course">
+        <div class="header_course">
+          <div class="first_header">Trending Course</div>
+          <div class="second_header">We know the best things for You.  Top picks for You.</div>
+        </div>
+        <div class="list_all_course">
+          <div class="course">
+            <img height="161px" src="@/assets/images/6course.png">
+            <div class="hade_name">Adobe Illustrator Scretch Course</div>
+            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
+            <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
+            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="price">$24.92 <span><s>$32.90</s></span></div>
+
+          </div>
+          <div class="course"><img height="161px" src="@/assets/images/2course.png">
+            <div class="hade_name"> Bootcamp  Vue.js Web Framework</div>
+            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
+            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
+            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="price">$24.92 <span><s>$32.90</s></span></div>
+          </div>
+          <div class="course">
+            <img height="161px" src="@/assets/images/3course.png">
+            <div class="hade_name">Spring Boot Full Course</div>
+            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+            <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
+            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="price">$24.92 <span><s>$32.90</s></span></div>
+          </div>
+          <div class="course">
+            <img height="161px" src="@/assets/images/4course.png">
+            <div class="hade_name">Learn C++ Full Course</div>
+            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Mosh</div>
+            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
+            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="price">$24.92 <span><s>$32.90</s></span></div>
+          </div>
+          <div class="course">
+            <img height="161px" src="@/assets/images/5course.png">
+            <div class="hade_name">Java Full Course</div>
+            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
+            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="price">$24.92 <span><s>$32.90</s></span></div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
   </div>
 
 
