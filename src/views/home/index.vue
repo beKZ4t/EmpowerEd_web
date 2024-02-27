@@ -296,6 +296,7 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 150px;
+
 }
 .last_right_text{
   font-size: 16px;
