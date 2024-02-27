@@ -126,7 +126,7 @@
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
 
           </div>
-          <div class="course"><img height="161px" src="@/assets/images/2course.png">
+          <div class="course"><img height="161px" src="@/assets/images/7course.png">
             <div class="hade_name"> Bootcamp  Vue.js Web Framework</div>
             <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
             <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
@@ -134,7 +134,7 @@
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
           </div>
           <div class="course">
-            <img height="161px" src="@/assets/images/3course.png">
+            <img height="161px" src="@/assets/images/8course.png">
             <div class="hade_name">Spring Boot Full Course</div>
             <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
             <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
@@ -142,7 +142,7 @@
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
           </div>
           <div class="course">
-            <img height="161px" src="@/assets/images/4course.png">
+            <img height="161px" src="@/assets/images/7course.png">
             <div class="hade_name">Learn C++ Full Course</div>
             <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Mosh</div>
             <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
@@ -150,7 +150,7 @@
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
           </div>
           <div class="course">
-            <img height="161px" src="@/assets/images/5course.png">
+            <img height="161px" src="@/assets/images/6course.png">
             <div class="hade_name">Java Full Course</div>
             <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
             <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
@@ -165,6 +165,119 @@
       </div>
     </div>
 
+    <div class="last_list">
+      <div class="containers">
+        <div class="last_con">
+          <div><img src="@/assets/images/9course.png" height="161px"> </div>
+          <div class="hade_name">Spring Boot Full Course</div>
+          <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+          <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
+          <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+          <div class="price">$24.92 <span><s>$32.90</s></span></div>
+        </div>
+
+
+
+
+      </div>
+      <div class="containers">
+        <div class="last_con">
+          <div><img src="@/assets/images/9course.png" height="161px"> </div>
+          <div class="hade_name">Spring Boot Full Course</div>
+          <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+          <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
+          <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+          <div class="price">$24.92 <span><s>$32.90</s></span></div>
+        </div>
+
+
+
+
+      </div>
+      <div class="containers">
+        <div class="last_con">
+          <div><img src="@/assets/images/9course.png" height="161px"> </div>
+          <div class="hade_name">Spring Boot Full Course</div>
+          <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+          <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
+          <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+          <div class="price">$24.92 <span><s>$32.90</s></span></div>
+        </div>
+
+
+
+
+      </div>
+      <div class="containers">
+        <div class="last_con">
+          <div><img src="@/assets/images/9course.png" height="161px"> </div>
+          <div class="hade_name">Spring Boot Full Course</div>
+          <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+          <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
+          <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+          <div class="price">$24.92 <span><s>$32.90</s></span></div>
+        </div>
+
+
+
+
+      </div>
+      <div class="containers">
+        <div class="last_con">
+          <div><img src="@/assets/images/9course.png" height="161px"> </div>
+          <div class="hade_name">Spring Boot Full Course</div>
+          <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+          <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
+          <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+          <div class="price">$24.92 <span><s>$32.90</s></span></div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+    <div class="main_last_search">
+    <div class="last_search">
+      <div class="text_in_search">
+      <div class="text_last">Get Amazing Discount and Course Update </div>
+      <div>
+        <input class="input_search" type="email" placeholder="Email">
+        <img height="28px" src="@/assets/images/search_last.png">
+      </div>
+      <div class="last_button">
+        <button type="button">Subscribe</button>
+      </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="footer_main">
+      <div class="right_side">
+        <div class="log_img"><img height="43px" src="@/assets/images/logo.png"></div>
+        <div class="name_log_last">EmpowerED</div>
+      </div>
+      <div class="second_footer">
+        <div>Web Programming</div>
+        <div>Mobile Programming</div>
+        <div>Java Beginner</div>
+        <div>PHP Beginner</div>
+      </div>
+      <div class="third_footer">
+        <div>Adobe Illustrator</div>
+        <div>Adobe Photoshop</div>
+        <div>Design Logo</div>
+
+      </div>
+      <div class="fourth_footer">
+        <div>Writing Course</div>
+        <div>Photography</div>
+        <div>Video Making</div>
+      </div>
+    </div>
   </div>
 
 
@@ -190,6 +303,120 @@ export default {
 </script>
 
 <style scoped>
+.footer_main{
+  width: 1408.33px;
+  height: 138.26px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 105px;
+}
+.fourth_footer{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Ubuntu-regular", sytem ui;
+
+}
+.third_footer{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Ubuntu-regular", sytem ui;
+}
+
+.second_footer{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Ubuntu-regular", sytem ui;
+  width: 201.33px;
+  height: 136.81px;
+}
+.right_side{
+  display: flex;
+  align-items: center;
+  height: 43px;
+  width: 152.8px;
+  justify-content: space-between;
+}
+.name_log_last{
+  font-size: 17.79px;
+  color: #FFFFFF;
+  font-family: "Ubuntu-bold", sytem ui;
+}
+
+.footer{
+  width: 100%;
+  height: 313px;
+  background-color: #1B1B1B ;
+}
+.input_search{
+  width: 573.23px;
+  height: 44.79px;
+  background-color: rgba(249, 249, 249, 0.3);
+  border-radius: 3px;
+  border: none;
+}
+.input_search::placeholder{
+  color: rgba(249, 249, 249, 0.6);
+}
+.last_button button{
+  width: 201.15px;
+  height: 44.79px;
+  background-color: #3DCBB1;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Ubuntu-bold", sytem ui;
+  border-radius: 3px;
+  border: none;
+}
+.text_in_search{
+  width: 1524.82px;
+  height: 44.79px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.text_last{
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: "Ubuntu-bold", sytem ui;
+}
+.main_last_search{
+  width: 1638.21px;
+  margin: 0 auto;
+  margin-bottom: 119px;
+}
+
+.last_search{
+  display: flex;
+  justify-content: space-between;
+  height: 201px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background: url("@/assets/images/lastsearch_back.png") no-repeat #663259;
+  width: 100%;
+  background-position: right;
+
+
+}
+.last_con{
+  width: 229.96px;
+  height: 318px;
+}
+.last_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 318px;
+  width: 1664.29px;
+  margin: 0 auto;
+
+}
+.containers{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header_course{
   margin-bottom: 34.43px;
 }
