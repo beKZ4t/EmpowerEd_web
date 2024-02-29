@@ -1,6 +1,7 @@
 import {createRouter, createWebHistory} from "vue-router";
 import Home from "@/views/home/index.vue";
 import Paind from "@/views/paind/index.vue";
+import Test from "@/views/paind/lesson_expandable.vue";
 
 
 
@@ -17,9 +18,6 @@ const routes = [
         name: 'haind',
         component: Paind
     }
-
-
-
 ]
 
 const router = createRouter({

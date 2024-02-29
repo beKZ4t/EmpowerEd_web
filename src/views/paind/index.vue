@@ -32,29 +32,7 @@
     <div class="text_under_video">VUE JS SCRATCH COURSE</div>
   </div>
     <div class="right_side_main">
-
-      <div class="head_list">
-        <div class="first_list">
-          Chapter 1: Course Overview
-        </div>
-        <div class="head_second_list">
-          <div class="text_second_list"> 1/12 Videos</div>
-          <img src="@/assets/images/Ellipse.png" height="3px">
-          <div class="blue_text">28m</div>
-          <div class="right_side_list"></div>
-
-        </div>
-
-      </div>
-      <div class="second_list"></div>
-      <div class="list_item"></div>
-      <div class="list_item"></div>
-      <div class="list_item"></div>
-      <div class="list_item"></div>
-      <div class="list_item"></div>
-      <div class="list_item"></div>
-      <div class="list_item"></div>
-      <div class="list_item"></div>
+      <lesson-expandable-component />
     </div>
     </div>
     <div class="head_under">
@@ -133,7 +111,7 @@
         <p>With our responsive themes and mobile and desktop apps</p>
       </div>
       <div class="input">
-        <input type="search">
+        <input type="search" placeholder="Email Address">
         <img src="@/assets/images/search_last.png" height="15px">
       </div>
       <button type="button">Subscribe</button>
@@ -192,8 +170,11 @@
 
 
 
+import LessonExpandableComponent from "@/views/paind/lesson_expandable.vue";
+
 export default {
   name: "index",
+  components: {LessonExpandableComponent},
 
   mounted() {
     window.scrollTo(0, 0);
@@ -203,6 +184,16 @@ export default {
 </script>
 
 <style scoped>
+.search_text{
+  font-size: 24px;
+  color: white;
+  font-family: "Ubuntu-bold", sytem ui;
+}
+.search_text p{
+  font-size: 14px;
+  font-family: "Ubuntu-regular", sytem ui;
+  color: rgba(255, 255, 255, 0.6);
+}
 .last_left_text{
   display: flex;
   justify-content: space-between;
@@ -233,12 +224,20 @@ export default {
   color: #FFFFFF;
   font-size: 16px;
   font-family: "Ubuntu-regular", sytem ui;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
 
 }
 .third_footer{
   color: #FFFFFF;
   font-size: 16px;
   font-family: "Ubuntu-regular", sytem ui;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .second_footer{
@@ -247,6 +246,8 @@ export default {
   font-family: "Ubuntu-regular", sytem ui;
   width: 201.33px;
   height: 136.81px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .right_side{
   display: flex;
@@ -259,8 +260,10 @@ export default {
   width: 904px;
   height: 139px;
   border-radius: 12px;
-  background-color: #1365E1;
+  background-color: #2273D1;
   margin-bottom: 142px;
+  align-items: center;
+  display: flex;
 }
 .second_main_text{
   font-size: 16px;
@@ -385,10 +388,6 @@ export default {
   justify-content: space-between;
 }
 .right_side_main{
-  width: 363px;
-  height: 448px;
-  background-color: #F4F4F4;
-  border-radius: 12px;
 }
 .navbar_first{
   width: 1024px;
@@ -449,14 +448,44 @@ export default {
   width: 400px;
   height: 37px;
   border-radius: 3px;
-  background-color: rgba(249, 249, 249, 0.9);
   border: none;
+  background-color: transparent;
 
+}
+.input {
+  background-color: rgba(249, 249, 249, 0.3);
+}
+.input input::placeholder{
+  margin-left: 5px;
+  color: rgba(249, 249, 249, 0.6);
+  font-family: "Ubuntu-regular", sytem ui;
+}
+.input input{
+  width: 243px;
+  height: 41px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: none;
+}
+.input img{
+
+}
+input:focus {
+  outline: none;
 }
 .search_navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+button{
+  background-color: #3DCBB1;
+  color: #FFFFFF;
+  height: 41px;
+  width: 111px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
 }
 .second{
   display: flex;
