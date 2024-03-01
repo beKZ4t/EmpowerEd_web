@@ -165,23 +165,19 @@
 
     </div>
 
-    <div class="next_bar">
-      <div class="first_left">
-        <img src="@/assets/images/chevron_right_24px.png" height="24px">
-
-      </div>
-      <div class="center">
-        <div class="numbers">1</div>
-        <div class="numbers">2</div>
-        <div class="numbers">3</div>
-        <div class="numbers">4</div>
-        <div class="numbers">5</div>
-        <div class="numbers">...</div>
-        <div class="numbers">98</div>
-      </div>
-      <div class="end_right"></div>
-
+    <div class="pagination">
+      <a href="#" class="left_pagination"><img src="@/assets/images/chevron_right_24px.png" height="24px"> </a>
+      <a href="#" class="page-link active">1</a>
+      <a href="#" class="page-link">2</a>
+      <a href="#" class="page-link">3</a>
+      <a href="#" class="page-link">4</a>
+      <a href="#" class="page-link">5</a>
+      <span>...</span>
+      <a href="#" class="page-link">98</a>
+      <a href="#" class="right_pagination"><img src="@/assets/images/chevron_left_24px.png" height="24px"> </a>
     </div>
+
+
 
   </div>
 
@@ -189,7 +185,7 @@
 
 
 
-<!--  <footer-component></footer-component>-->
+  <footer-component></footer-component>
 
 
 
@@ -218,6 +214,41 @@ export default {
 </script>
 
 <style scoped>
+.left_pagination{
+  padding: 7px 9px 6px 8px;
+  border: 1px solid rgba(27, 27, 27, 0.6);
+  border-radius: 3px;
+}
+.right_pagination{
+  padding: 7px 9px 6px 8px;
+  border: 1px solid rgba(27, 27, 27, 0.6);
+  border-radius: 3px;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 488px;
+  height: 37px;
+  margin: 0 auto;
+  margin-bottom: 37px;
+  margin-top: 59px;
+}
+
+.page-link {
+  font-size: 14px;
+  font-family: "Ubuntu-regular", sytem ui;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid rgba(27, 27, 27, 0.6);
+  border-radius: 12px;
+  text-decoration: none;
+  color: rgba(27, 27, 27, 0.6);
+}
+
+.page-link.active {
+  color: #3DCBB1;
+  border: 1px solid #3DCBB1;
+}
 .first_course{
   font-size: 16px;
   color: black;
