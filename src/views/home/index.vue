@@ -233,40 +233,8 @@
     </div>
 
   </div>
-  <div class="footer">
-    <div class="footer_main">
-      <div class="right_side">
-        <div class="log_img"><img height="43px" src="@/assets/images/logo.png"></div>
-        <div class="name_log_last">EmpowerED</div>
-      </div>
-      <div class="second_footer">
-        <div>Web Programming</div>
-        <div>Mobile Programming</div>
-        <div>Java Beginner</div>
-        <div>PHP Beginner</div>
-      </div>
-      <div class="third_footer">
-        <div>Adobe Illustrator</div>
-        <div>Adobe Photoshop</div>
-        <div>Design Logo</div>
+<footer-component></footer-component>
 
-      </div>
-      <div class="fourth_footer">
-        <div>Writing Course</div>
-        <div>Photography</div>
-        <div>Video Making</div>
-      </div>
-    </div>
-    <hr style="width: 1691px; border: 0.5px solid rgba(249,249,249,0.9)">
-    <div class="last_text">
-      <div class="last_right_text">Copyright © EmpowerED 2024. All Rights Reserved</div>
-      <div class="last_left_text">
-        <img src="@/assets/images/Twitter.png" height="25px">
-        <img src="@/assets/images/Instagram.png" height="25px">
-        <img src="@/assets/images/Facebook.png" height="25px">
-      </div>
-    </div>
-  </div>
 
 
 
@@ -281,8 +249,11 @@
 
 
 
+import FooterComponent from "@/components/footer/footer.vue";
+
 export default {
   name: "index",
+  components: {FooterComponent},
 
   mounted() {
     window.scrollTo(0, 0);

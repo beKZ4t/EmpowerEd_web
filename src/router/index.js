@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from "vue-router";
 import Home from "@/views/home/index.vue";
 import Paind from "@/views/paind/index.vue";
-import Test from "@/views/paind/lesson_expandable.vue";
+import My_course from "@/views/my_course/index.vue";
 
 
 
@@ -15,8 +15,13 @@ const routes = [
     },
     {
         path: '/paind',
-        name: 'haind',
+        name: 'paind',
         component: Paind
+    },
+    {
+        path: '/my_course',
+        name: 'my_course',
+        component: My_course
     }
 ]
 
