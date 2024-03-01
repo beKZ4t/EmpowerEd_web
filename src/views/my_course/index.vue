@@ -1,33 +1,10 @@
 <template>
 
 
-      <div class="navbar">
-        <div class="main_navbar">
-          <div class="left_side_navbar">
-            <div class="log_name">
-              <div class="log_img"><img height="43px" src="@/assets/images/logo.png"></div>
-              <div class="name_log">EmpowerED</div>
-            </div>
-            <div class="second">
-              <div>Browse</div>
-              <div class="down_img"><img width="24px" src="@/assets/images/down.png"></div>
-            </div>
-          </div>
-          <div class="search_navbar">
-            <input type="search" placeholder="Search for course">
-            <img class="icon_search" height="21px" src="@/assets/images/Search.png">
-
-          </div>
-          <div class="icons">
-            Become Instructor
-            <div class="basket_img"><img height="37px" src="@/assets/images/basket.png"></div>
-            <div class="basket_img"><img height="37px" src="@/assets/images/notifications.png"></div>
-            <div class="basket_img"><img height="43px" src="@/assets/images/avatar_icone.png"></div>
-          </div>
-        </div>
-      </div>
+<navbar-component></navbar-component>
 
   <div class="main">
+
     <div class="list_course">
       <div class="item">All Courses</div>
       <div class="item">Courses</div>
@@ -177,7 +154,17 @@
       <a href="#" class="right_pagination"><img src="@/assets/images/chevron_left_24px.png" height="24px"> </a>
     </div>
 
+    <div class="search">
 
+        <p>Get Amazing Discount and Course Update </p>
+        <div class="input">
+          <input type="email" placeholder="Email Address">
+          <img src="@/assets/images/search_last.png" height="15px">
+        </div>
+        <button type="button">Subscribe</button>
+
+
+    </div>
 
   </div>
 
@@ -201,10 +188,11 @@
 
 import LessonExpandableComponent from "@/views/paind/lesson_expandable.vue";
 import FooterComponent from "@/components/footer/footer.vue";
+import NavbarComponent from "@/components/navbar/navbar.vue";
 
 export default {
   name: "index",
-  components: {FooterComponent, LessonExpandableComponent},
+  components: {FooterComponent, LessonExpandableComponent, NavbarComponent},
 
   mounted() {
     window.scrollTo(0, 0);
@@ -214,6 +202,47 @@ export default {
 </script>
 
 <style scoped>
+.search{
+  width: 841px;
+  height: 84px;
+  padding: 50px 370px 50px 319px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1365E1;
+  margin-bottom: 39px;
+}
+.search p{
+  width: 410px;
+  font-family: "Ubuntu-bold", sytem ui;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+input::placeholder{
+  margin-left: 5px;
+  color: rgba(249, 249, 249, 0.6);
+  font-family: "Ubuntu-regular", sytem ui;
+}
+.input {
+  background-color: rgba(249, 249, 249, 0.3);
+}
+.input input{
+  width: 289px;
+  height: 41px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: none;
+}
+button{
+  background-color: #3DCBB1;
+  color: #FFFFFF;
+  height: 41px;
+  width: 111px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
 .left_pagination{
   padding: 7px 9px 6px 8px;
   border: 1px solid rgba(27, 27, 27, 0.6);
@@ -313,83 +342,7 @@ export default {
 }
 
 
-.icons{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 430px;
-  font-size: 16px;
-  font-family: "Ubuntu-regular", sytem ui;
-}
-.navbar{
-  width: 1718px;
-  height: 115px;
-  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.06);
-  border-radius: 30px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 23px;
-  margin-bottom: 13px;
-}
-.main_navbar{
-  width: 1479px;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.left_side_navbar{
-  display: flex;
-  align-items: center;
-  width: 290px;
-  justify-content: space-between;
-}
-.log_name{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 153px;
-  height: 43px;
-  font-family: "Ubuntu-bold", sytem ui;
-  font-size: 18px;
-}
-.second{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 106px;
-  font-family: "Ubuntu-regular", sytem ui;
-  font-size: 16px;
-}
-input{
-  width: 678px;
-  height: 37px;
-  border: none;
-  background-color: transparent;
 
-
-}
-input:focus {
-  outline: none;
-}
-.search_navbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 678px;
-  height: 37px;
-  background-color: rgba(249, 249, 249, 0.9);
-  border-radius: 10px;
-
-}
-input::placeholder{
-  padding-left: 12px;
-  color: rgba(27, 27, 27, 0.6);
-  font-family: "Ubuntu-regular", sytem ui;
-  font-size: 16px;
-}
 
 
 </style>
