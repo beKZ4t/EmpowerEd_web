@@ -236,6 +236,29 @@
 <footer-component></footer-component>
 
 
+  <div class="login">
+    <div class="left_side">
+      <img src="@/assets/images/images_login.png" height="550px">
+    </div>
+    <div class="right_side">
+      <div class="logo">
+        <img height="43px" src="@/assets/images/logo.png">
+        <p>EmpowerED</p>
+      </div>
+      <p>Join us and get more benefits. We promise to keep your data safely. </p>
+      <input style="margin-bottom: 8px; margin-top: 24px" type="email" placeholder="Email Address">
+      <input style="margin-bottom: 16px;" type="password" placeholder="Password">
+      <button class="login_button" type="button">Login</button>
+      <p>or you can</p>
+      <button class="button_face" type="button">Continue with Facebook</button>
+      <button class="button_app" type="button">Continue with Apple</button>
+      <button class="button_google" type="button">Continue with Google</button>
+      <p> Need an Account? <a href="#">Sign Up</a></p>
+
+    </div>
+
+  </div>
+
 
 
 
@@ -263,75 +286,57 @@ export default {
 </script>
 
 <style scoped>
-.last_left_text{
-  display: flex;
-  justify-content: space-between;
-  width: 150px;
-
+.login_button{
+  width: 352px;
+  height: 41px;
 }
-.last_right_text{
-  font-size: 16px;
-  color: rgba(249, 249, 249, 0.6);
-  font-family: "Ubuntu-regular", sytem ui;
+.right_side input{
+  width: 352px;
+  height: 41px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgba(249, 249, 249, 0.9);
 }
-.last_text{
-  display: flex;
-  width: 1693px;
-  margin: 0 auto;
-  justify-content: space-between;
+.right_side input:focus{
+  border: none;
+  outline: none;
 }
-.footer_main{
-  width: 1408.33px;
-  height: 138.26px;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 40px;
-  padding-left: 105px;
-}
-.fourth_footer{
-  color: #FFFFFF;
-  font-size: 16px;
-  font-family: "Ubuntu-regular", sytem ui;
-
-}
-.third_footer{
-  color: #FFFFFF;
-  font-size: 16px;
-  font-family: "Ubuntu-regular", sytem ui;
-}
-
-.second_footer{
-  color: #FFFFFF;
-  font-size: 16px;
-  font-family: "Ubuntu-regular", sytem ui;
-  width: 201.33px;
-  height: 136.81px;
+.right_side p{
+  margin-top: 13px;
 }
 .right_side{
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(27, 27, 27, 0.6);
+  width: 352px;
+  height: 509px;
+  padding-bottom: 21px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-left: 24px;
+}
+.logo{
   display: flex;
   align-items: center;
-  height: 43px;
-  width: 152.8px;
+  font-size: 14px;
+  font-family: "Ubuntu-bold", sytem ui;
+  width: 135px;
   justify-content: space-between;
 }
-.name_log_last{
-  font-size: 17.79px;
-  color: #FFFFFF;
-  font-family: "Ubuntu-bold", sytem ui;
+.login{
+  width: 1150px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right_side{
+  width: 400px;
+  height: 550px;
+  background-color: #FFFFFF;
 }
 
-.footer{
-  width: 100%;
-  height: 313px;
-  background-color: #1B1B1B ;
-}
-.input_search{
-  width: 573.23px;
-  height: 44.79px;
-  background-color: rgba(249, 249, 249, 0.3);
-  border-radius: 10px;
-  border: none;
-}
 .input_search::placeholder{
   color: rgba(249, 249, 249, 0.6);
 }
