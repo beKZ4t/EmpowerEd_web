@@ -241,7 +241,7 @@
       <img src="@/assets/images/images_login.png" height="550px">
     </div>
     <div class="right_side">
-      <div class="logo">
+      <div  class="logo">
         <img height="43px" src="@/assets/images/logo.png">
         <p>EmpowerED</p>
       </div>
@@ -286,6 +286,10 @@ export default {
 </script>
 
 <style scoped>
+.right_side .logo{
+  display: flex;
+
+}
 .login_button{
   width: 352px;
   height: 41px;
