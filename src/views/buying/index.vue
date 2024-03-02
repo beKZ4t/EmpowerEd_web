@@ -11,7 +11,7 @@
         <div class="first">US$22.40 <s>$30.13</s></div>
         <p class="percent">20% OFF</p>
         <button class="buy" type="button">Buy</button>
-        <button class="wishlist" type="button"><img style="margin-left: 8px" src="@/assets/images/like.png" height="24px"> Wishlist</button>
+        <button class="wishlist" type="button"><img style="margin-right: 8px;" src="@/assets/images/like.png" height="24px"> Wishlist</button>
         <p class="under"><img src="@/assets/images/list_24px.png" height="24px">22 Section </p>
         <p class="under"><img src="@/assets/images/book24px.png" height="24px">152 Lectures</p>
         <p class="under"><img src="@/assets/images/tv_24px.png" height="24px">21h 33m total lenghts</p>
@@ -20,24 +20,42 @@
 
     </div>
     <div class="head_under">
-      <div class="right_yellow">
+      <div class="right_blue">
         <img src="@/assets/images/Square.png" height="55px">
-        <div class="yellow_text">
+        <div class="blue_text">
           Kitani Studio
           <div>Design Studio</div>
         </div>
       </div>
-      <div class="left_yellow">
+      <div class="left_blue">
         <div class="user_icon">
-          <img src="@/assets/images/supervised.png" height="49px">
+          <img src="@/assets/images/blue_24px.png" height="49px">
           2.3k
         </div>
         <div class="chat_icon">
-          <img src="@/assets/images/rate.png" height="49px">
+          <img src="@/assets/images/blue_chat24px.png" height="49px">
           1.4k
         </div>
       </div>
     </div>
+
+    <div class="about">
+      <div class="head_about">About Course</div>
+      <p>Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.</p>
+    </div>
+
+    <div class="search">
+
+      <p>Get Amazing Discount and Course Update </p>
+      <div class="input">
+        <input type="email" placeholder="Email Address">
+        <img src="@/assets/images/search_last.png" height="15px">
+      </div>
+      <button type="button">Subscribe</button>
+
+
+    </div>
+
 
   </div>
 
@@ -74,12 +92,78 @@ export default {
 </script>
 
 <style scoped>
+.search{
+  width: 841px;
+  height: 84px;
+  padding: 50px 370px 50px 319px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1365E1;
+  margin-bottom: 39px;
+}
+.search p{
+  width: 410px;
+  font-family: "Ubuntu-bold", sytem ui;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+input::placeholder{
+  margin-left: 5px;
+  color: rgba(249, 249, 249, 0.6);
+  font-family: "Ubuntu-regular", sytem ui;
+}
+.input {
+  background-color: rgba(249, 249, 249, 0.3);
+}
+.input input{
+  width: 289px;
+  height: 41px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: none;
+}
+button{
+  background-color: #3DCBB1;
+  color: #FFFFFF;
+  height: 41px;
+  width: 111px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.about{
+  margin-top: 30px;
+  width: 753px;
+  margin-bottom: 116px;
+}
+.head_about{
+  font-size: 16px;
+  font-family: "Ubuntu-bold", sytem ui;
+  margin-bottom: 20px;
+
+}
+.about p{
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 16px;
+  color: rgba(27, 27, 27, 0.6);
+}
+.head_under{
+  width: 938px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 29px;
+  border-bottom: 1px solid #eeeeee;
+}
 .blue_text{
   font-size: 20px;
-  color: #F2C94C;
+  color: #1365E1;
   font-family: "Ubuntu-bold", sytem ui;
 }
-.yellow_text div{
+.blue_text div{
   color: rgba(27, 27, 27, 0.6);
   font-size: 15px;
   font-family: "Ubuntu-regular", sytem ui;
@@ -91,6 +175,27 @@ export default {
   justify-content: space-between;
   width: 200px;
 
+}
+.user_icon{
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat_icon{
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left_blue{
+  display: flex;
+  width: 270px;
+  justify-content: space-between;
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 20px;
+  color: rgba(27, 27, 27, 0.6);
+  align-items: center;
 }
 .left p{
   font-size: 24px;
