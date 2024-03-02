@@ -12,10 +12,10 @@
         <p class="percent">20% OFF</p>
         <button class="buy" type="button">Buy</button>
         <button class="wishlist" type="button"><img style="margin-right: 8px;" src="@/assets/images/like.png" height="24px"> Wishlist</button>
-        <p class="under"><img src="@/assets/images/list_24px.png" height="24px">22 Section </p>
-        <p class="under"><img src="@/assets/images/book24px.png" height="24px">152 Lectures</p>
-        <p class="under"><img src="@/assets/images/tv_24px.png" height="24px">21h 33m total lenghts</p>
-        <p class="under"><img src="@/assets/images/volume24px.png" height="24px">English</p>
+        <p class="under"><img style="margin-right: 10px;" src="@/assets/images/list_24px.png" height="24px">22 Section </p>
+        <p class="under"><img style="margin-right: 10px;" src="@/assets/images/book24px.png" height="24px">152 Lectures</p>
+        <p class="under"><img style="margin-right: 10px;" src="@/assets/images/tv_24px.png" height="24px">21h 33m total lenghts</p>
+        <p class="under"><img style="margin-right: 10px;" src="@/assets/images/volume24px.png" height="24px">English</p>
       </div>
 
     </div>
@@ -45,8 +45,8 @@
     </div>
 
     <div class="search">
-
-      <p>Get Amazing Discount and Course Update </p>
+      <div class="search_heade"><p>Join and get amazing discount </p>
+        <p class="under_search">With our responsive themes and mobile and desktop apps</p></div>
       <div class="input">
         <input type="email" placeholder="Email Address">
         <img src="@/assets/images/search_last.png" height="15px">
@@ -92,6 +92,10 @@ export default {
 </script>
 
 <style scoped>
+.search .under_search{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
 .search{
   width: 841px;
   height: 84px;
@@ -105,7 +109,7 @@ export default {
 .search p{
   width: 410px;
   font-family: "Ubuntu-bold", sytem ui;
-  font-size: 32px;
+  font-size: 24px;
   color: #FFFFFF;
 }
 
@@ -116,6 +120,10 @@ input::placeholder{
 }
 .input {
   background-color: rgba(249, 249, 249, 0.3);
+}
+input:focus{
+  outline: none;
+  border: none;
 }
 .input input{
   width: 289px;

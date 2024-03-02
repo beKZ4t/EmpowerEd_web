@@ -25,8 +25,18 @@
       </div>
 
       <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
+        <img src="@/assets/images/222course.png" height="161px">
+        <p class="first_course">Bootcamp  Vue.js Web Framework</p>
+        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
+        <p class="info_course">Learn how to make web application with Vue.js Framework.</p>
+        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+        <div class="price">$24.92 <span><s>$32.90</s></span></div>
+
+      </div>
+
+      <div class="item_course">
+        <img src="@/assets/images/333course.png" height="161px">
+        <p class="first_course">Design Fundamentals</p>
         <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
         <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
         <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
@@ -35,20 +45,10 @@
       </div>
 
       <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
+        <img src="@/assets/images/222course.png" height="161px">
+        <p class="first_course">Bootcamp  Vue.js Web Framework</p>
         <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
-        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-        <div class="price">$24.92 <span><s>$32.90</s></span></div>
-
-      </div>
-
-      <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
-        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+        <p class="info_course">Learn how to make web application with Vue.js Framework.</p>
         <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
         <div class="price">$24.92 <span><s>$32.90</s></span></div>
 
@@ -58,7 +58,7 @@
 
     <div class="container">
       <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
+        <img src="@/assets/images/444course.png" height="161px">
         <p class="first_course">Adobe Illustrator Scretch Course</p>
         <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
         <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
@@ -68,7 +68,17 @@
       </div>
 
       <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
+        <img src="@/assets/images/555course.png" height="161px">
+        <p class="first_course">Adobe Illustrator Scretch Course</p>
+        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kunal Kushwaha</div>
+        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+        <div class="price">$24.92 <span><s>$32.90</s></span></div>
+
+      </div>
+
+      <div class="item_course">
+        <img src="@/assets/images/666course.png" height="161px">
         <p class="first_course">Adobe Illustrator Scretch Course</p>
         <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
         <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
@@ -78,17 +88,7 @@
       </div>
 
       <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
-        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
-        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-        <div class="price">$24.92 <span><s>$32.90</s></span></div>
-
-      </div>
-
-      <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
+        <img src="@/assets/images/444course.png" height="161px">
         <p class="first_course">Adobe Illustrator Scretch Course</p>
         <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
         <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
@@ -99,48 +99,8 @@
 
     </div>
 
-    <div class="container">
-      <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
-        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
-        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-        <div class="price">$24.92 <span><s>$32.90</s></span></div>
 
-      </div>
 
-      <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
-        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
-        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-        <div class="price">$24.92 <span><s>$32.90</s></span></div>
-
-      </div>
-
-      <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
-        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
-        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-        <div class="price">$24.92 <span><s>$32.90</s></span></div>
-
-      </div>
-
-      <div class="item_course">
-        <img src="@/assets/images/111course.png" height="161px">
-        <p class="first_course">Adobe Illustrator Scretch Course</p>
-        <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-        <p class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
-        <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-        <div class="price">$24.92 <span><s>$32.90</s></span></div>
-
-      </div>
-
-    </div>
 
     <div class="pagination">
       <a href="#" class="left_pagination"><img src="@/assets/images/chevron_right_24px.png" height="24px"> </a>
@@ -218,7 +178,10 @@ export default {
   font-size: 32px;
   color: #FFFFFF;
 }
-
+input:focus{
+  outline: none;
+  border: none;
+}
 input::placeholder{
   margin-left: 5px;
   color: rgba(249, 249, 249, 0.6);
