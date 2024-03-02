@@ -17,7 +17,7 @@
         </div>
         <div style=" color: #1B1B1B;">Become Instructor</div>
         <div class="basket_img"><img height="45.62px" src="@/assets/images/basket.png"></div>
-        <div class="login"><button type="button">Login</button> </div>
+        <div class="login-button" @click="openLogin">Login</div>
         <div class="signup"><button type="button"><img height="16px" src="@/assets/images/time.png">Sign Up</button> </div>
       </div>
 
@@ -258,11 +258,6 @@
     </div>
 
   </div>
-
-
-
-
-
 </template>
 
 
@@ -273,13 +268,18 @@
 
 
 import FooterComponent from "@/components/footer/footer.vue";
+import App from "@/App.vue";
 
 export default {
   name: "index",
   components: {FooterComponent},
-
   mounted() {
     window.scrollTo(0, 0);
+  },
+  methods: {
+    openLogin() {
+      App.methods.openLogin();
+    }
   }
 
 }
@@ -644,9 +644,12 @@ export default {
   font-family: "Ubuntu-bold",sytem ui;
 
 }
-.login button{
+.login-button {
+  text-align: center;
   width: 80px;
-  height: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  cursor: pointer;
   background-color: #FFFFFF;
   border: 1px solid rgba(27, 27, 27, 0.9);
   border-radius: 10px;
