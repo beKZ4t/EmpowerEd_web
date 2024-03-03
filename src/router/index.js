@@ -3,6 +3,7 @@ import Home from "@/views/home/index.vue";
 import Paind from "@/views/paind/index.vue";
 import My_course from "@/views/my_course/index.vue";
 import Buying from "@/views/buying/index.vue";
+import Main from "@/views/main/idnex.vue";
 
 
 
@@ -28,6 +29,11 @@ const routes = [
         path: '/buying',
         name: 'buying',
         component: Buying
+    },
+    {
+        path: '/main',
+        name: 'main',
+        component: Main
     }
 
 ]

@@ -384,6 +384,10 @@ export default {
     font-size: 14px;
 
   }
+  .list_course{
+    width: 1664.29px;
+    height: 400px;
+  }
 
 
 }
@@ -485,26 +489,27 @@ export default {
   }
   .list_navbar{
     height: 45px;
-    width: 1300px;
+    width: 1200px;
     display: flex;
     justify-content: center;
     margin-top: 66px;
     margin-bottom: 44.78px;
-  }
-  .all_navbar button{
-    height: 45px;
-    border-radius: 10px;
-    width: 180px;
+    margin: 0 auto;
   }
 
+
   .coursers button{
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-radius: 9px;
     font-size: 11px;
 
+  }
+  .list_course{
+    width: 1300px;
+    height: 350px;
   }
 
 }
@@ -708,16 +713,9 @@ export default {
   font-family: "Ubuntu-regular", sytem ui;
 }
 .list_course{
-  width: 1664.29px;
-  height: 400px;
   margin: 0 auto;
 }
-.all_navbar button{
-  color: #1365E1;
-  background-color:#F9F9F990 ;
-  border: 1px solid #1365E1;
 
-}
 .adobe button{
   color: rgba(27, 27, 27, 0.6);
   border: 1px solid #1B1B1B10;
