@@ -40,6 +40,9 @@ export default {
 </script>
 
 <style scoped>
+
+
+
 .close{
   display: flex;
   justify-content: space-between;

@@ -3,7 +3,7 @@
     <div class="navbar">
       <div class="main_navbar">
         <div class="log_name">
-          <div class="log_img"><img height="43px" src="@/assets/images/logo.png"></div>
+          <div class="log_img"><img src="@/assets/images/logo.png"></div>
           <div class="name_log">EmpowerED</div>
         </div>
         <div class="second">
@@ -12,13 +12,13 @@
         </div>
         <div class="search">
           <input type="search" placeholder="Search for course"> 
-          <img class="icon_search" height="21px" src="@/assets/images/Search.png">
+          <img class="icon_search" src="@/assets/images/Search.png">
         
         </div>
         <div style=" color: #1B1B1B;">Become Instructor</div>
-        <div class="basket_img"><img height="45.62px" src="@/assets/images/basket.png"></div>
+        <div class="basket_img"><img src="@/assets/images/basket.png"></div>
         <div class="login-button" @click="openLogin">Login</div>
-        <div class="signup-button" @click="openSignup"><img height="16px" src="@/assets/images/time.png">Sign Up </div>
+        <div class="signup-button" @click="openSignup"><img src="@/assets/images/time.png">Sign Up </div>
       </div>
 
     </div>
@@ -41,15 +41,15 @@
     </div>
     <div class="main_size">
       <div class="list_navbar">
-        <div class="all_navbar"><button type="button">All Recommendation</button> </div>
-        <div class="adobe"><button type="button">Adobe Illustrator</button> </div>
-        <div class="adobe_pho"><button type="button">Adobe Photoshop</button> </div>
-        <div class="ui"><button type="button">UI Design</button> </div>
-        <div class="web_nav"><button type="button">Web Programming</button> </div>
-        <div class="java_nav"><button type="button">Java</button> </div>
-        <div class="object_nav"><button type="button">Object oriented programming</button> </div>
-        <div class="spring"><button type="button">Spring Boot</button> </div>
-        <div class="angular"><button type="button">Angular</button> </div>
+        <div class="coursers active"><button type="button">All Recommendation</button> </div>
+        <div class="coursers"><button type="button">Adobe Illustrator</button> </div>
+        <div class="coursers"><button type="button">Adobe Photoshop</button> </div>
+        <div class="coursers"><button type="button">UI Design</button> </div>
+        <div class="coursers"><button type="button">Web Programming</button> </div>
+        <div class="coursers"><button type="button">Java</button> </div>
+        <div class="coursers"><button type="button">Object oriented programming</button> </div>
+        <div class="coursers"><button type="button">Spring Boot</button> </div>
+        <div class="coursers"><button type="button">Angular</button> </div>
 
       </div>
 
@@ -236,28 +236,8 @@
 <footer-component></footer-component>
 
 
-  <div class="login">
-    <div class="left_side">
-      <img src="@/assets/images/images_login.png" height="550px">
-    </div>
-    <div class="right_side">
-      <div  class="logo">
-        <img height="43px" src="@/assets/images/logo.png">
-        <p>EmpowerED</p>
-      </div>
-      <p>Join us and get more benefits. We promise to keep your data safely. </p>
-      <input style="margin-bottom: 8px; margin-top: 24px" type="email" placeholder="Email Address">
-      <input style="margin-bottom: 16px;" type="password" placeholder="Password">
-      <button class="login_button" type="button">Login</button>
-      <p>or you can</p>
-      <button class="button_face" type="button">Continue with Facebook</button>
-      <button class="button_app" type="button">Continue with Apple</button>
-      <button class="button_google" type="button">Continue with Google</button>
-      <p> Need an Account? <a href="#">Sign Up</a></p>
 
-    </div>
 
-  </div>
 </template>
 
 
@@ -286,13 +266,327 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (min-width: 1440px) {
+  .navbar{
+    height: 114.06px;
+    width: 1718px;
+    margin-top: 23.08px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-bottom: 28.94px;
+  }
+  .search input{
+    width: 678px;
+    height: 37px;
+    border-radius: 12px;
+
+  }
+  .log_img img{
+    height: 43px;
+  }
+  .log_name{
+    height: 43px;
+    width: 151.49px;
+    font-size: 17.79px;
+
+  }
+  .main_navbar{
+    width: 1486px;
+    height: 48.92px;
+  }
+  .second{
+    font-size: 16px;
+  }
+  .icon_search{
+    width: 24px;
+    height: 21px;
+  }
+  .basket_img img{
+    height:45.62px;
+  }
+  .login-button {
+    width: 80px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  .signup-button{
+    width:120px ;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  .signup-button img{
+    height:16px;
+  }
+  .image_first{
+    height: 727px;
+    width: 100%;
+  }
+  .screen img{
+    height: 705px;
+  }
+  .first_text {
+    font-size: 55px;
+  }
+  .second_text{
+    font-size: 24px;
+    height: 84px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+  }
+  .first_button{
+    width: 172.44px;
+    height: 48px;
+    border-radius: 14px;
+    font-size: 16px;
+    margin-right: 28.67px;
+
+  }
+  .second_button{
+    width: 255.13px;
+    height: 48px;
+    font-size: 16px;
+    border-radius: 14px;
+
+  }
+  .text_main{
+    width: 508.24px;
+    height: 307px;
+    padding-top: 157px;
+    padding-left: 226.69px;
+  }
+  .main_size{
+    width: 1691.85px;
+    margin: 0 auto;
+  }
+  .list_navbar{
+    height: 59.22px;
+    width: 1673.59px;
+    margin-top: 66px;
+    margin-bottom: 44.78px;
+  }
+  .all_navbar button{
+    height: 59.22px;
+    border-radius: 10px;
+    width: 252.51px;
+  }
+
+
+  .coursers button{
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-radius: 12px;
+    font-size: 14px;
+
+  }
+
+
+}
+@media screen and (max-width: 1440px) and (min-width: 821px) {
+  .navbar{
+    height: 80.06px;
+    width: 1300px;
+    margin-top: 23.08px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 28.94px;
+  }
+  .log_img img{
+    height: 35px;
+  }
+  .log_name{
+    height: 43px;
+    width: 125px;
+    font-size: 15px;
+
+  }
+  .search input{
+    width: 340px;
+    height: 35px;
+    border-radius: 9px;
+
+  }
+  .main_navbar{
+    width: 1050px;
+    height: 38px;
+  }
+  .second{
+    font-size: 12px;
+  }
+  .icon_search{
+    width: 19px;
+    height: 18px;
+  }
+  .basket_img img{
+    height:32px;
+  }
+  .login-button {
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    font-size: 11px;
+  }
+  .signup-button{
+    width:100px;
+    height: 34px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  .signup-button img{
+    height:13px;
+  }
+  .image_first{
+    height: 515px;
+    width: 100%;
+  }
+  .screen img{
+    height: 500px;
+  }
+  .first_text {
+    font-size: 37px;
+  }
+  .second_text{
+    font-size: 18px;
+    height: 44px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  .first_button{
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-right: 28.67px;
+
+  }
+  .second_button{
+    width: 220.13px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 12px;
+
+  }
+  .text_main{
+    width: 400px;
+    height: 223px;
+    padding-top: 145px;
+    padding-left: 162px;
+  }
+  .main_size{
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .list_navbar{
+    height: 45px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+    margin-bottom: 44.78px;
+  }
+  .all_navbar button{
+    height: 45px;
+    border-radius: 10px;
+    width: 180px;
+  }
+
+  .coursers button{
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 9px;
+    font-size: 11px;
+
+  }
+
+}
+
+@media screen and (max-width: 820px) {
+  .navbar{
+    height: 50px;
+    width: 600px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    margin-bottom: 25px;
+  }
+  .log_img img{
+    height: 25px;
+  }
+  .log_name{
+    height: 25px;
+    width: 70px;
+    font-size: 11px;
+
+  }
+  .search input{
+    width: 80px;
+    height: 25px;
+    border-radius: 9px;
+
+  }
+  .main_navbar{
+    width: 550px;
+    height: 38px;
+  }
+  .second{
+    font-size: 10px;
+  }
+  .icon_search{
+    width: 19px;
+    height: 18px;
+  }
+  .basket_img img{
+    height:22px;
+  }
+  .login-button {
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    font-size: 11px;
+  }
+  .signup-button{
+    width:60px;
+    height: 25px;
+    border-radius: 6px;
+    font-size: 11px;
+  }
+  .signup-button img{
+    height:10px;
+  }
+
+}
+
+
+
 .right_side .logo{
   display: flex;
 
 }
-.login_button{
-  width: 352px;
-  height: 41px;
+.coursers.active button{
+  border: 1px solid #1365E1;
+  color: #1365E1;
+}
+.coursers{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.coursers button{
+  background-color: #FFFFFF;
+  border: 1px solid rgba(27, 27, 27, 0.1);
+  font-family: "Ubuntu-regular", sytem ui;
+  color: rgba(27, 27, 27, 0.6);
 }
 .right_side input{
   width: 352px;
@@ -307,38 +601,6 @@ export default {
 }
 .right_side p{
   margin-top: 13px;
-}
-.right_side{
-  font-family: "Ubuntu-regular", sytem ui;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(27, 27, 27, 0.6);
-  width: 352px;
-  height: 509px;
-  padding-bottom: 21px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-left: 24px;
-}
-.logo{
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  font-family: "Ubuntu-bold", sytem ui;
-  width: 135px;
-  justify-content: space-between;
-}
-.login{
-  width: 1150px;
-  height: 550px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.right_side{
-  width: 400px;
-  height: 550px;
-  background-color: #FFFFFF;
 }
 
 .input_search::placeholder{
@@ -453,10 +715,8 @@ export default {
 .all_navbar button{
   color: #1365E1;
   background-color:#F9F9F990 ;
-  height: 59.22px;
-  border-radius: 10px;
   border: 1px solid #1365E1;
-  width: 252.51px;
+
 }
 .adobe button{
   color: rgba(27, 27, 27, 0.6);
@@ -529,79 +789,49 @@ export default {
 .list_navbar{
   display: flex;
   justify-content: space-between;
-  height: 59.22px;
-  width: 1673.59px;
   align-items: center;
   color: rgba(249, 249, 249, 0.9);
-  margin-top: 66px;
-  margin-bottom: 44.78px;
 }
 .first_text{
-  font-size: 55px;
   font-family: "Ubuntu-bold",sytem ui;
 
 }
-.main_size{
-  width: 1691.85px;
-  margin: 0 auto;
-}
+
 .first_button{
-  width: 172.44px;
-  height: 48px;
-  border-radius: 14px;
   border: 1px solid rgba(27, 27, 27, 0.6);
   background-color: #77D361;
   color: rgba(27, 27, 27, 0.6);
-  font-size: 16px;
   font-family: "Ubuntu-bold",sytem ui;
-  margin-right: 28.67px;
+
 
 }
 .second_button{
-  width: 255.13px;
-  height: 48px;
   background-color: #1365E1;
   border: none;
-  font-size: 16px;
   font-family: "Ubuntu-bold",sytem ui;
   color: #FFFFFF;
-  border-radius: 14px;
+
 
 }
 
 
 
 .second_text{
-  font-size: 24px;
   font-family: "Ubuntu-regular",sytem ui;
   color: rgba(27, 27, 27, 0.6);
-  height: 84px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-
-}
-.text_main{
-  width: 508.24px;
-  height: 307px;
-  padding-top: 157px;
-  padding-left: 226.69px;
 }
 .screen{
   display: flex;
   align-items: center;
 }
 .image_first{
-  height: 727px;
-  width: 100%;
   background-color: #77D361;
   display: flex;
   justify-content: space-between;
 }
 .icon_search{
-
   display: inline-block;
   vertical-align: middle;
-  width: 24px;
 }
 
 .second{
@@ -609,65 +839,44 @@ export default {
   align-items: center;
   justify-content: center;
   font-family: "Ubuntu-regular",sytem ui;
-  font-size: 16px;
   color: #1B1B1B;
 }
 .search input{
-  width: 678px;
-  height: 37px;
-  border-radius: 12px;
+
   background-color: rgba(249, 249, 249, 0.9);
   border: none;
 }
 
 
 .navbar{
-  height: 114.06px;
-  width: 1718px;
   margin: 0 auto;
-  margin-top: 23.08px;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.06);
-  border-radius: 30px;
   font-family: "Ubuntu-regular",sytem ui;
-  font-size: 16px;
   display: flex;
   align-items: center;
-  margin-bottom: 28.94px;
 }
 .signup-button{
   display: flex;
   justify-content: center;
   align-items: center;
-  width:120px ;
-  height: 40px;
   background-color: #1365E1;
-  border-radius: 10px;
   border: none;
   color: #FFFFFF;
-  font-size: 12px;
   font-family: "Ubuntu-bold",sytem ui;
   cursor: pointer;
 
 }
 .login-button {
   text-align: center;
-  width: 80px;
-  padding-top: 14px;
-  padding-bottom: 14px;
   cursor: pointer;
   background-color: #FFFFFF;
   border: 1px solid rgba(27, 27, 27, 0.9);
-  border-radius: 10px;
-  font-size: 12px;
   font-family: "Ubuntu-bold",sytem ui;
 }
 .log_name{
   display: flex;
   align-items: center;
-  height: 43px;
-  width: 151.49px;
   justify-content: space-between;
-  font-size: 17.79px;
   font-family: "Ubuntu-bold",sytem ui;
 
 }
@@ -679,8 +888,6 @@ export default {
   justify-content: center;
 }
 .main_navbar{
-  width: 1486px;
-  height: 48.92px;
   align-items: center;
   margin: 0 auto;
   display: flex;
