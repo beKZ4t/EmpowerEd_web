@@ -18,7 +18,7 @@
         <div style=" color: #1B1B1B;">Become Instructor</div>
         <div class="basket_img"><img height="45.62px" src="@/assets/images/basket.png"></div>
         <div class="login-button" @click="openLogin">Login</div>
-        <div class="signup"><button type="button"><img height="16px" src="@/assets/images/time.png">Sign Up</button> </div>
+        <div class="signup-button" @click="openSignup"><img height="16px" src="@/assets/images/time.png">Sign Up </div>
       </div>
 
     </div>
@@ -634,7 +634,7 @@ export default {
   align-items: center;
   margin-bottom: 28.94px;
 }
-.signup button{
+.signup-button{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -646,6 +646,7 @@ export default {
   color: #FFFFFF;
   font-size: 12px;
   font-family: "Ubuntu-bold",sytem ui;
+  cursor: pointer;
 
 }
 .login-button {

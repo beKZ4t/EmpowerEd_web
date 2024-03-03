@@ -1,6 +1,6 @@
 <template>
-  <div class="login-container">
-    <div class="login-content-container">
+  <div class="signup-container">
+    <div class="signup-content-container">
       <div class="left_side">
         <img src="@/assets/images/images_login.png" height="550px">
       </div>
@@ -9,16 +9,16 @@
           <img height="43px" src="@/assets/images/logo.png">
           <p>EmpowerED</p>
           <p style="color: black; margin-left: 180px" @click="closeLogin">Close</p>
-          </div>
+        </div>
         <p>Join us and get more benefits. We promise to keep your data safely. </p>
         <input style="margin-bottom: 8px; margin-top: 24px" type="email" placeholder="Email Address">
         <input style="margin-bottom: 16px;" type="password" placeholder="Password">
-        <button class="login_button" type="button">Login</button>
+        <button class="login_button" type="button">Create Account</button>
         <p class="or">or you can</p>
         <button class="button_face" type="button"><img src="@/assets/images/Facebok.png" height="21px"> Continue with Facebook</button>
         <button class="button_app" type="button"><img src="@/assets/images/Apple.png" height="21px">Continue with Apple</button>
         <button class="button_google" type="button"><img src="@/assets/images/Google.png" height="21px">Continue with Google</button>
-        <p class="need"> Need an Account? <a href=" " style="color: #3DCBB1">Sign Up</a></p>
+        <p class="need"> Already have an Account? <a href="#" style="color: #3DCBB1">Login</a></p>
 
 
       </div>    </div>
@@ -30,10 +30,10 @@
 import App from "@/App.vue";
 
 export default {
-  name: 'login-component',
+  name: 'sign_up-component',
   methods: {
-    closeLogin() {
-      App.methods.closeLogin();
+    closeSignUp() {
+      App.methods.closeSignUp();
     }
   }
 }
@@ -147,7 +147,7 @@ export default {
   justify-content: space-between;
   color: black;
 }
-.login-container {
+.signup-container {
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
   z-index: 100;
@@ -156,7 +156,7 @@ export default {
   position: fixed;
   cursor: pointer;
 }
-.login-content-container {
+.signup-content-container {
   background: white;
   margin-left: auto;
   margin-right: auto;
