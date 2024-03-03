@@ -18,6 +18,7 @@ x<template>
         <button class="button_app" type="button"><img src="@/assets/images/Apple.png" height="21px">Continue with Apple</button>
         <button class="button_google" type="button"><img src="@/assets/images/Google.png" height="21px">Continue with Google</button>
         <p class="need"> Need an Account? <a href="#" style="color: #3DCBB1">Sign Up</a></p>
+        <p>Close</p>
 
       </div>    </div>
   </div>
@@ -38,6 +39,7 @@ export default {
 </script>
 
 <style scoped>
+
 .need{
   text-align: center;
 }
@@ -51,6 +53,9 @@ export default {
   font-size: 16px;
   border: none;
   margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 .button_app{
@@ -63,6 +68,9 @@ export default {
   font-size: 16px;
   border: none;
   margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .button_google{
   width: 352px;
@@ -74,6 +82,9 @@ export default {
   font-size: 16px;
   border: 1px solid rgba(27, 27, 27, 0.1);
   margin-bottom: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .or{
