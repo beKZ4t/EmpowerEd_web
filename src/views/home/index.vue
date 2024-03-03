@@ -63,43 +63,43 @@
       </div>
         <div class="list_all_course">
           <div class="course">
-            <img height="161px" src="@/assets/images/1course.png">
+            <img class="img_course" src="@/assets/images/1course.png">
             <div class="hade_name">Adobe Illustrator Scretch Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
+            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Kitani Studio</div>
             <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="star"><img src="@/assets/images/star.png" class="img_star" > (1.2K) </div>
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
 
           </div>
-          <div class="course"><img height="161px" src="@/assets/images/2course.png">
+          <div class="course"><img class="img_course" src="@/assets/images/2course.png">
             <div class="hade_name"> Bootcamp  Vue.js Web Framework</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
+            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Kitani Studio</div>
             <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
           </div>
           <div class="course">
-            <img height="161px" src="@/assets/images/3course.png">
+            <img class="img_course" src="@/assets/images/3course.png">
             <div class="hade_name">Spring Boot Full Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Amigocode</div>
             <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
           </div>
           <div class="course">
-            <img height="161px" src="@/assets/images/4course.png">
+            <img class="img_course" src="@/assets/images/4course.png">
             <div class="hade_name">Learn C++ Full Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Mosh</div>
+            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Mosh</div>
             <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
           </div>
           <div class="course">
-            <img height="161px" src="@/assets/images/5course.png">
+            <img class="img_course" src="@/assets/images/5course.png">
             <div class="hade_name">Java Full Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
+            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Amigocode</div>
             <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
+            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>
             <div class="price">$24.92 <span><s>$32.90</s></span></div>
           </div>
 
@@ -110,111 +110,111 @@
       </div>
     </div>
 
-    <div class="list_course">
-      <div class="first_course">
-        <div class="header_course">
-          <div class="first_header">Trending Course</div>
-          <div class="second_header">We know the best things for You.  Top picks for You.</div>
-        </div>
-        <div class="list_all_course">
-          <div class="course">
-            <img height="161px" src="@/assets/images/6course.png">
-            <div class="hade_name">Adobe Illustrator Scretch Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-            <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-            <div class="price">$24.92 <span><s>$32.90</s></span></div>
+<!--    <div class="list_course">-->
+<!--      <div class="first_course">-->
+<!--        <div class="header_course">-->
+<!--          <div class="first_header">Trending Course</div>-->
+<!--          <div class="second_header">We know the best things for You.  Top picks for You.</div>-->
+<!--        </div>-->
+<!--        <div class="list_all_course">-->
+<!--          <div class="course">-->
+<!--            <img class="img_course" src="@/assets/images/6course.png">-->
+<!--            <div class="hade_name">Adobe Illustrator Scretch Course</div>-->
+<!--            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Kitani Studio</div>-->
+<!--            <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>-->
+<!--            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--            <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
 
-          </div>
-          <div class="course"><img height="161px" src="@/assets/images/7course.png">
-            <div class="hade_name"> Bootcamp  Vue.js Web Framework</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-            <div class="price">$24.92 <span><s>$32.90</s></span></div>
-          </div>
-          <div class="course">
-            <img height="161px" src="@/assets/images/8course.png">
-            <div class="hade_name">Spring Boot Full Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
-            <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-            <div class="price">$24.92 <span><s>$32.90</s></span></div>
-          </div>
-          <div class="course">
-            <img height="161px" src="@/assets/images/7course.png">
-            <div class="hade_name">Learn C++ Full Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Mosh</div>
-            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-            <div class="price">$24.92 <span><s>$32.90</s></span></div>
-          </div>
-          <div class="course">
-            <img height="161px" src="@/assets/images/6course.png">
-            <div class="hade_name">Java Full Course</div>
-            <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
-            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-            <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-            <div class="price">$24.92 <span><s>$32.90</s></span></div>
-          </div>
+<!--          </div>-->
+<!--          <div class="course"><img class="img_course" src="@/assets/images/7course.png">-->
+<!--            <div class="hade_name"> Bootcamp  Vue.js Web Framework</div>-->
+<!--            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Kitani Studio</div>-->
+<!--            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>-->
+<!--            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--            <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--          </div>-->
+<!--          <div class="course">-->
+<!--            <img class="img_course" src="@/assets/images/8course.png">-->
+<!--            <div class="hade_name">Spring Boot Full Course</div>-->
+<!--            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Amigocode</div>-->
+<!--            <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>-->
+<!--            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--            <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--          </div>-->
+<!--          <div class="course">-->
+<!--            <img class="img_course" src="@/assets/images/7course.png">-->
+<!--            <div class="hade_name">Learn C++ Full Course</div>-->
+<!--            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Mosh</div>-->
+<!--            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>-->
+<!--            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--            <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--          </div>-->
+<!--          <div class="course">-->
+<!--            <img class="img_course" src="@/assets/images/6course.png">-->
+<!--            <div class="hade_name">Java Full Course</div>-->
+<!--            <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Amigocode</div>-->
+<!--            <div class="info_course">Learn how to make web application with Vue.js Framework.</div>-->
+<!--            <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--            <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--          </div>-->
 
-        </div>
-
-
-
-      </div>
-    </div>
-
-      <div style="margin-top: 120px" class="list_course">
-        <div class="first_course">
-          <div class="list_all_course">
-            <div class="course">
-              <img height="161px" src="@/assets/images/8course.png">
-              <div class="hade_name">Adobe Illustrator Scretch Course</div>
-              <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-              <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
-              <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-              <div class="price">$24.92 <span><s>$32.90</s></span></div>
-
-            </div>
-            <div class="course"><img height="161px" src="@/assets/images/9course.png">
-              <div class="hade_name"> Bootcamp  Vue.js Web Framework</div>
-              <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Kitani Studio</div>
-              <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-              <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-              <div class="price">$24.92 <span><s>$32.90</s></span></div>
-            </div>
-            <div class="course">
-              <img height="161px" src="@/assets/images/9course.png">
-              <div class="hade_name">Spring Boot Full Course</div>
-              <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
-              <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>
-              <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-              <div class="price">$24.92 <span><s>$32.90</s></span></div>
-            </div>
-            <div class="course">
-              <img height="161px" src="@/assets/images/7course.png">
-              <div class="hade_name">Learn C++ Full Course</div>
-              <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Mosh</div>
-              <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-              <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-              <div class="price">$24.92 <span><s>$32.90</s></span></div>
-            </div>
-            <div class="course">
-              <img height="161px" src="@/assets/images/6course.png">
-              <div class="hade_name">Java Full Course</div>
-              <div class="name_course"><img height="18px" src="@/assets/images/person_icon.png"> Amigocode</div>
-              <div class="info_course">Learn how to make web application with Vue.js Framework.</div>
-              <div class="star"><img src="@/assets/images/star.png" height="16px"> (1.2K) </div>
-              <div class="price">$24.92 <span><s>$32.90</s></span></div>
-            </div>
-
-          </div>
+<!--        </div>-->
 
 
 
-        </div>
-      </div>
+<!--      </div>-->
+<!--    </div>-->
+
+<!--      <div style="margin-top: 120px" class="list_course">-->
+<!--        <div class="first_course">-->
+<!--          <div class="list_all_course">-->
+<!--            <div class="course">-->
+<!--              <img class="img_course" src="@/assets/images/8course.png">-->
+<!--              <div class="hade_name">Adobe Illustrator Scretch Course</div>-->
+<!--              <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Kitani Studio</div>-->
+<!--              <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>-->
+<!--              <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--              <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+
+<!--            </div>-->
+<!--            <div class="course"><img class="img_course" src="@/assets/images/9course.png">-->
+<!--              <div class="hade_name"> Bootcamp  Vue.js Web Framework</div>-->
+<!--              <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Kitani Studio</div>-->
+<!--              <div class="info_course">Learn how to make web application with Vue.js Framework.</div>-->
+<!--              <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--              <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--            </div>-->
+<!--            <div class="course">-->
+<!--              <img class="img_course" src="@/assets/images/9course.png">-->
+<!--              <div class="hade_name">Spring Boot Full Course</div>-->
+<!--              <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Amigocode</div>-->
+<!--              <div class="info_course">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</div>-->
+<!--              <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--              <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--            </div>-->
+<!--            <div class="course">-->
+<!--              <img class="img_course" src="@/assets/images/7course.png">-->
+<!--              <div class="hade_name">Learn C++ Full Course</div>-->
+<!--              <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Mosh</div>-->
+<!--              <div class="info_course">Learn how to make web application with Vue.js Framework.</div>-->
+<!--              <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--              <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--            </div>-->
+<!--            <div class="course">-->
+<!--              <img class="img_course" src="@/assets/images/6course.png">-->
+<!--              <div class="hade_name">Java Full Course</div>-->
+<!--              <div class="name_course"><img class="person_icon" src="@/assets/images/person_icon.png"> Amigocode</div>-->
+<!--              <div class="info_course">Learn how to make web application with Vue.js Framework.</div>-->
+<!--              <div class="star"><img src="@/assets/images/star.png" class="img_star"> (1.2K) </div>-->
+<!--              <div class="price">$24.92 <span><s>$32.90</s></span></div>-->
+<!--            </div>-->
+
+<!--          </div>-->
+
+
+
+<!--        </div>-->
+<!--      </div>-->
 
     </div>
     <div class="main_last_search">
@@ -388,10 +388,83 @@ export default {
     width: 1664.29px;
     height: 400px;
   }
+  .header_course{
+    margin-bottom: 34.43px;
+  }
+  .first_header{
+    font-size: 20px;
+  }
+  .second_header{
+    font-size: 16px;
+  }
+  .course{
+    width: 285.52px;
+    height: 318px;
 
+  }
+  .img_course{
+    height:161px;
+    width: 281px;
+  }
+  .hade_name {
+    font-size: 16px;
+  }
+  .person_icon{
+    height: 18px;
+  }
+
+  .name_course{
+    font-size: 14px;
+  }
+  .info_course{
+    font-size: 14px;
+  }
+  .star{
+    font-size: 14px;
+  }
+  .img_star{
+    height: 16px;
+  }
+  .price{
+    font-size: 20px;
+
+
+  }
+  .price span{
+    font-size: 16px;
+
+  }
 
 }
 @media screen and (max-width: 1440px) and (min-width: 821px) {
+  .img_course{
+    height: 129px;
+    width: 234px;
+  }
+  .price{
+    font-size: 20px;
+
+
+  }
+  .price span{
+    font-size: 16px;
+
+  }
+  .img_star{
+    height: 16px;
+  }
+  .star{
+    font-size: 14px;
+  }
+  .info_course{
+    font-size: 14px;
+  }
+  .name_course{
+    font-size: 14px;
+  }
+  .person_icon{
+    height: 18px;
+  }
   .navbar{
     height: 80.06px;
     width: 1300px;
@@ -510,6 +583,23 @@ export default {
   .list_course{
     width: 1300px;
     height: 350px;
+  }
+  .first_header{
+    font-size: 17px;
+  }
+  .header_course{
+    margin-bottom: 22px;
+  }
+  .second_header{
+    font-size: 14px;
+  }
+  .course{
+    width: 285.52px;
+    height: 318px;
+
+  }
+  .hade_name {
+    font-size: 16px;
   }
 
 }
@@ -654,22 +744,17 @@ export default {
 
 }
 
-.header_course{
-  margin-bottom: 34.43px;
-}
+
 .hade_name{
-  font-size: 16px;
   font-family: "Ubuntu-bold", sytem ui;
 
 }
 .price{
-  font-size: 20px;
   font-family: "Ubuntu-bold", sytem ui;
   color: rgba(27, 27, 27, 0.9);
 
 }
 .price span{
-    font-size: 16px;
     color: rgba(27, 27, 27, 0.6);
   font-family: "Ubuntu-regular", sytem ui;
 }
@@ -677,17 +762,14 @@ export default {
   display: flex;
   align-items: center;
   color: rgba(27, 27, 27, 0.6);
-  font-size: 14px;
   font-family: "Ubuntu-regular", sytem ui;
 
 }
 .info_course{
   color: rgba(27, 27, 27, 0.9);
-  font-size: 14px;
   font-family: "Ubuntu-regular", sytem ui;
 }
 .first_header{
-  font-size: 20px;
   color: black;
   font-family: "Ubuntu-bold",sytem ui;
 }
@@ -695,21 +777,15 @@ export default {
   display: flex;
   align-items: center;
   color: #1365E1;
-  font-size: 14px;
   font-family: "Ubuntu-regular", sytem ui;
 }
 .list_all_course{
+  width: 950px;
   display: flex;
   justify-content: space-between;
 }
-.course{
-  width: 285.52px;
-  height: 318px;
-
-}
 .second_header{
   color: rgba(27, 27, 27, 0.6);
-  font-size: 16px;
   font-family: "Ubuntu-regular", sytem ui;
 }
 .list_course{
