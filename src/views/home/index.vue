@@ -223,7 +223,7 @@
       <div class="text_last">Get Amazing Discount and Course Update </div>
       <div>
         <input class="input_search" type="email" placeholder="Email">
-        <img height="28px" src="@/assets/images/search_last.png">
+        <img src="@/assets/images/search_last.png">
       </div>
       <div class="last_button">
         <button type="button">Subscribe</button>
