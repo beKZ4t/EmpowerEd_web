@@ -25,12 +25,11 @@
 
 
 import LessonExpandableComponent from "@/views/paind/lesson_expandable.vue";
-import FooterComponent from "@/components/footer/footer.vue";
 import NavbarComponent from "@/components/navbar/navbar.vue";
 
 export default {
   name: "list-course-component",
-  components: {FooterComponent, LessonExpandableComponent, NavbarComponent},
+  components: { LessonExpandableComponent, NavbarComponent},
 
   mounted() {
     window.scrollTo(0, 0);

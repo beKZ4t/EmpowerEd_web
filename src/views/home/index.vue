@@ -233,7 +233,7 @@
     </div>
 
   </div>
-<footer-component></footer-component>
+
 
 
 
@@ -247,12 +247,12 @@
 
 
 
-import FooterComponent from "@/components/footer/footer.vue";
+
 import App from "@/App.vue";
 
 export default {
   name: "index",
-  components: {FooterComponent},
+  components: {},
   mounted() {
     window.scrollTo(0, 0);
   },

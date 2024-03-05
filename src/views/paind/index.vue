@@ -119,7 +119,7 @@
     </div>
   </div>
 
-<footer-component></footer-component>
+
 
 
 
@@ -134,11 +134,11 @@
 
 
 import LessonExpandableComponent from "@/views/paind/lesson_expandable.vue";
-import FooterComponent from "@/components/footer/footer.vue";
+
 
 export default {
   name: "index",
-  components: {LessonExpandableComponent, FooterComponent},
+  components: {LessonExpandableComponent},
 
   mounted() {
     window.scrollTo(0, 0);

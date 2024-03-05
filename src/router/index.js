@@ -4,6 +4,7 @@ import Paind from "@/views/paind/index.vue";
 import My_course from "@/views/my_course/index.vue";
 import Buying from "@/views/buying/index.vue";
 import Main from "@/views/main/idnex.vue";
+import PaindSecond from "@/views/paind_2/index.vue";
 
 
 
@@ -34,6 +35,12 @@ const routes = [
         path: '/main',
         name: 'main',
         component: Main
+    }
+    ,
+    {
+        path: '/paindsecond',
+        name: 'paindsecond',
+        component: PaindSecond
     }
 
 ]

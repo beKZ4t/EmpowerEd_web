@@ -59,7 +59,7 @@
 
   </div>
 
-  <footer-component></footer-component>
+
 
 
 
@@ -76,13 +76,13 @@
 
 
 
-import FooterComponent from "@/components/footer/footer.vue";
+
 import NavbarComponent from "@/components/navbar/navbar.vue";
 import List_courseComponent from "@/components/list_course/list_course.vue";
 
 export default {
   name: "index",
-  components: {NavbarComponent, FooterComponent, List_courseComponent},
+  components: {NavbarComponent, List_courseComponent},
 
   mounted() {
     window.scrollTo(0, 0);

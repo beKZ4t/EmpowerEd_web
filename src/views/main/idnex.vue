@@ -14,7 +14,7 @@ import TargetComponent from "@/components/home/target.vue";
 import CourseBlockComponent from "@/components/home/course_block.vue";
 import SearchBlock from "@/components/home/search-block.vue";
 import SearchBlockComponent from "@/components/home/search-block.vue";
-import FooterBlockComponent from "@/components/home/footer-block.vue";
+import FooterBlockComponent from "@/components/home/footer_block.vue";
 
 export default {
   name: "index",
