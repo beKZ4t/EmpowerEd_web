@@ -146,7 +146,7 @@
 
 
 
-import LessonExpandableComponent from "@/views/paind/lesson_expandable.vue";
+import LessonExpandableComponent from "@/components/home/lesson_expandable.vue";
 
 import NavbarComponent from "@/components/navbar/navbar.vue";
 

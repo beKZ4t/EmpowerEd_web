@@ -7,18 +7,18 @@
           <div class="expandable-letter">{{chapter.title}}</div>
           <div class="info-text">
             <div class="text_second_list"> {{chapter.current}}/{{chapter.totalCount}} Videos</div>
-            <img style="margin-left: 4px; margin-right: 4px;" src="@/assets/images/Ellipse.png" height="3px">
+            <img style="margin-left: 4px; margin-right: 4px;" src="../../assets/images/Ellipse.png" height="3px">
             <div class="blue_text">{{chapter.time}}</div>
           </div>
         </div>
-        <img src="@/assets/images/arrow_bottom.png" class="expandable-img">
+        <img src="../../assets/images/arrow_bottom.png" class="expandable-img">
       </div>
       <div class="show-container" :class="{'expanded': expandedIndex === index}">
         <div class="items">
           <div class="item" v-for="content in chapter.contentList" :key="content">
             <div class="item_head">
               <p>{{content.title}} </p>
-              <img src="@/assets/images/play.png" height="10px"> <span>{{content.time}}</span>
+              <img src="../../assets/images/play.png" height="10px"> <span>{{content.time}}</span>
             </div>
             <div v-if="content.status === 'Completed'" class="competed-container">{{content.status}}</div>
             <div v-else-if="content.status === 'Playing'" class="playing-container">{{content.status}}</div>
