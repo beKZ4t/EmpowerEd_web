@@ -37,25 +37,25 @@ export default {
     return {
       reviewBlock: [
         {
-          avatar: "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRM0gr38i7a0yNb0upDr9HiY0phSLCJzcqLJCfGNHmjYH_2yUpgBpME6o44lbqUtb4wWBEwxYgfy-n85LKmTn0",
+          avatar: "https://learnux.io/uploads/vectors/adobe-xd-course-0.jpg",
           name: "Leonardo  Da Vinci",
           date: "Today",
           review: "Loved the course. I've learned some very subtle tecniques, ",
         },
         {
-          avatar: "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRM0gr38i7a0yNb0upDr9HiY0phSLCJzcqLJCfGNHmjYH_2yUpgBpME6o44lbqUtb4wWBEwxYgfy-n85LKmTn0",
+          avatar: "https://learnux.io/uploads/vectors/adobe-xd-course-0.jpg",
           name: "Leonardo  Da Vinci",
           date: "Today",
           review: "Loved the course. I've learned some very subtle tecniques, ",
         },
         {
-          avatar: "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRM0gr38i7a0yNb0upDr9HiY0phSLCJzcqLJCfGNHmjYH_2yUpgBpME6o44lbqUtb4wWBEwxYgfy-n85LKmTn0",
+          avatar: "https://learnux.io/uploads/vectors/adobe-xd-course-0.jpg",
           name: "Leonardo  Da Vinci",
           date: "Today",
           review: "Loved the course. I've learned some very subtle tecniques, ",
         },
         {
-          avatar: "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRM0gr38i7a0yNb0upDr9HiY0phSLCJzcqLJCfGNHmjYH_2yUpgBpME6o44lbqUtb4wWBEwxYgfy-n85LKmTn0",
+          avatar: "https://learnux.io/uploads/vectors/adobe-xd-course-0.jpg",
           name: "Leonardo  Da Vinci",
           date: "Today",
           review: "Loved the course. I've learned some very subtle tecniques, ",
