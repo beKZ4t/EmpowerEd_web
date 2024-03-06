@@ -7,13 +7,15 @@
       </div>
       <div class="reviews">
         <div class="head_reviews">Review</div>
-        <div class="people">
+        <div class="people" v-for="r in reviewBlock" :key="r">
           <div class="avatar">
-            <img class="avatar-image" :src="reviewBlock.avatar">
+            <img class="avatar-image" :src="r.avatar">
           </div>
-          <p class="name_person">{{reviewBlock.name}}</p>
-          <p class="date">{{reviewBlock.date}}</p>
-          <p class="people_review">{{reviewBlock.review}}</p>
+          <div>
+          <p class="name_person">{{r.name}}</p>
+          <p class="date">{{r.date}}</p>
+          <p class="people_review">{{r.review}}</p>
+          </div>
 
 
         </div>
@@ -24,10 +26,10 @@
     </div>
 
 
-    <div class="right_side">
 
-      <img src="@/assets/images/Group.png" >
-    </div>
+
+      <img class="right_side" src="@/assets/images/Group.png" >
+
 
   </div>
 
@@ -37,6 +39,7 @@
 <script >
 export default {
   name: "about_text-component",
+  props: ["reviewBlock"],
 
 }
 </script>
@@ -60,7 +63,66 @@ h2{
   color: rgba(27, 27, 27, 0.6);
   margin-top: 16px;
 }
-.right_side img{
-  height: 90%;
+.right_side {
+  max-width: 100%;
+}
+.head_reviews{
+  font-size: 16px;
+  font-family: "Ubuntu-bold", sytem ui;
+}
+.reviews{
+  margin-top: 42px;
+}
+.avatar-image{
+  height: 33px;
+  width: 33px;
+  border-radius: 15px;
+  margin-right: 16px;
+}
+.people{
+  display: flex;
+  margin-top: 16px;
+}
+.name_person{
+  color: #1365E1;
+  font-family: "Ubuntu-bold", sytem ui;
+  font-size: 16px;
+}
+.date{
+  font-size: 10px;
+  color: rgba(27, 27, 27, 0.2);
+  font-family: Ubuntu-regular, system-ui;
+  margin: 2px 0;
+}
+.people_review{
+  font-family: Ubuntu-regular, system-ui;
+  font-size: 14px;
+  color: rgba(27, 27, 27, 0.6);
+}
+@media screen and (max-width: 1200px) {
+.about{
+  font-size: 14px;
+}
+  .left_side{
+    width: 80%;
+  }
+  .right_side{
+    max-width: 70%;
+    display: flex;
+    margin: 35px auto;
+  }
+
+
+
+
+}
+@media screen and (max-width: 880px) {
+
+  .block{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
 }
 </style>

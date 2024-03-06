@@ -2,7 +2,7 @@
   <header-component />
   <video_blcok-component />
   <header_text-component />
-  <about_text-component />
+  <about_text-component :review-block="reviewBlock"/>
 
 
 
@@ -44,21 +44,22 @@ export default {
         },
         {
           avatar: "https://learnux.io/uploads/vectors/adobe-xd-course-0.jpg",
-          name: "Leonardo  Da Vinci",
+          name: "Titania  S",
           date: "Today",
-          review: "Loved the course. I've learned some very subtle tecniques, ",
+          review: "I loved the course, it had been a long time since I had experimented with watercolors and now I will do it more often thanks to Kitani Studio ",
         },
         {
           avatar: "https://learnux.io/uploads/vectors/adobe-xd-course-0.jpg",
-          name: "Leonardo  Da Vinci",
+          name: "Zhirkov",
           date: "Today",
-          review: "Loved the course. I've learned some very subtle tecniques, ",
+          review: "Yes. I just emphasize that the use of Photoshop, for non-users, becomes difficult to follow. What requires a course to master it. Safe and very didactic teacher. ",
         },
         {
           avatar: "https://learnux.io/uploads/vectors/adobe-xd-course-0.jpg",
-          name: "Leonardo  Da Vinci",
+          name: "Miphoska",
           date: "Today",
-          review: "Loved the course. I've learned some very subtle tecniques, ",
+          review: "I haven't finished the course yet, as I would like to have some feedback from the teacher, about the comments I shared on the forum 3 months ago, and I still haven't had any answer. \n" +
+              "I think the course is well structured, however the explanations and videos are very quick for beginners. However, it is good to go practicing. ",
         }
 
       ]
