@@ -3,6 +3,7 @@
   <video_blcok-component />
   <header_text-component />
   <about_text-component :review-block="reviewBlock"/>
+  <search_last-component />
 
 
 
@@ -26,10 +27,12 @@ import LessonExpandableComponent from "@/components/home/lesson_expandable.vue";
 import Video_blcokComponent from "@/components/home/video_block.vue";
 import Header_textComponent from "@/components/home/header_text.vue";
 import About_textComponent from "@/components/home/about_text.vue";
+import Search_lastComponent from "@/components/home/search_last.vue";
 
 export default {
   name: "index",
   components: {
+    Search_lastComponent,
     About_textComponent,
     Header_textComponent,
     Video_blcokComponent, LessonExpandableComponent, FooterBlockComponent, HeaderComponent},
