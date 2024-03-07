@@ -5,6 +5,7 @@ import Buying from "@/views/buying/index.vue";
 import Main from "@/views/main/idnex.vue";
 import PaindSecond from "@/views/paind_2/index.vue";
 import My_cousre_second from "@/views/my_cousre_second/index.vue";
+import Buying_second from "@/views/buying_second/index.vue";
 
 
 
@@ -43,7 +44,13 @@ const routes = [
         path: '/my_course_second',
         name: 'my_course_second',
         component: My_cousre_second
+    } ,
+    {
+        path: '/buying_second',
+        name: 'buying_second',
+        component: Buying_second
     }
+
 
 ]
 

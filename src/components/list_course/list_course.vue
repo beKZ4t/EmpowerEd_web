@@ -29,7 +29,7 @@ import NavbarComponent from "@/components/navbar/navbar.vue";
 
 export default {
   name: "list-course-component",
-  components: { LessonExpandableComponent, NavbarComponent},
+
 
   mounted() {
     window.scrollTo(0, 0);
