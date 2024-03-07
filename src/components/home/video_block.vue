@@ -43,7 +43,7 @@ iframe{
 }
 @media screen and (max-width: 1200px) {
   .video_block{
-
+    display: ruby-text;
 
   }
   iframe{
@@ -54,9 +54,6 @@ iframe{
   }
 }
 @media screen and (max-width: 880px) {
-  .video_block{
-    display: ruby-text;
 
-  }
 }
 </style>

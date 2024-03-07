@@ -10,6 +10,7 @@
     <div>
       <star-component />
     </div>
+    <div class="price">{{course.price}} <s>{{course.oldPrice}}</s></div>
   </div>
 </template>
 
@@ -29,6 +30,16 @@ export default {
 </script>
 
 <style scoped>
+.price{
+  font-family: Ubuntu-bold, system-ui;
+  color: black;
+  font-size: 20px;
+}
+.price s{
+  font-size: 16px;
+  font-family: Ubuntu-regular, system-ui;
+  color: rgba(27, 27, 27, 0.6);
+}
 .course-list-container {
   width: 285px;
   display: inline-block;

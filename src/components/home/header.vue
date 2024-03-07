@@ -8,7 +8,7 @@
         <img src="@/assets/images/Search.png">
       </div>
       <div class="space-container"></div>
-      <div class="login-button">Login</div>
+      <div class="login-button"  @click="openLogin">Login</div>
       <div class="register-button">Sign Up</div>
     </div>
   </div>
@@ -17,8 +17,15 @@
 <script>
 
 
+import App from "@/App.vue";
+
 export default {
   name: "header-component",
+  methods: {
+    openLogin() {
+      App.methods.openLogin();
+    }
+  }
 }
 </script>
 
