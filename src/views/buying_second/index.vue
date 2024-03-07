@@ -110,6 +110,7 @@ export default {
   display: flex;
   justify-content: space-between;
   padding-right: 5%;
+  margin-top: 50px;
 }
 .under img{
   margin-right: 10px;

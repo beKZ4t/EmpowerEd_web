@@ -1,16 +1,18 @@
 <template>
-  <div class="course-list-container">
-    <img class="banner-image" :src="course.image">
-    <p class="name-text">{{course.name}}</p>
-    <div class="teacher-container">
-      <img class="icon-image" src="@/assets/images/person_icon.png">
-      <p class="teacher-text">{{course.teacher}}</p>
+
+    <div class="course-list-container">
+      <img class="banner-image" :src="course.image">
+      <p class="name-text">{{course.name}}</p>
+      <div class="teacher-container">
+        <img class="icon-image" src="@/assets/images/person_icon.png">
+        <p class="teacher-text">{{course.teacher}}</p>
+      </div>
+      <p class="info-text">{{course.info}}</p>
+      <div>
+        <star-component />
+      </div>
+      <div class="price">$ {{course.price}} <s>${{course.oldPrice}}</s></div>
     </div>
-    <p class="info-text">{{course.info}}</p>
-    <div>
-      <star-component />
-    </div>
-  </div>
 
 </template>
 
@@ -35,11 +37,22 @@ export default {
 </script>
 
 <style scoped>
+.price{
+  font-size: 20px;
+  color: black;
+  font-family: Ubuntu-bold, system-ui;
+}
+.price s{
+  font-family: Ubuntu-regular, system-ui;
+  color: rgba(27, 27, 27, 0.6);
+  font-size: 16px;
+}
 .course-list-container {
   width: 285px;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 40px;
+  margin-left: 8%;
+  margin-top: 58px;
 }
 .banner-image {
   width: 285px;
