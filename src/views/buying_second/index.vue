@@ -99,7 +99,7 @@ export default {
   width: 90%;
   margin: 0 auto;
   margin-top: 10px;
-  height: 426px;
+
 }
 .left_image{
   height: 324px;
@@ -175,8 +175,22 @@ h2{
 @media screen and (max-width: 1200px) {
 .block{
   display: flex;
+  flex-direction: column;
 
 }
+  .button_buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button_wishlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .price_block{
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 880px) {
 
