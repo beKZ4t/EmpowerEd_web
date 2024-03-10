@@ -10,14 +10,14 @@
           <p>EmpowerED</p>
           <p style="color: black; margin-left: 180px" @click="closeLogin">Close</p>
           </div>
-        <p>Join us and get more benefits. We promise to keep your data safely. </p>
+        <div class="Login_text">
+          <p class="text">Login</p>
+          <p class="join">Join us and get more benefits. We promise to keep your data safely. </p>
+        </div>
+
         <input style="margin-bottom: 8px; margin-top: 24px" type="email" placeholder="Email Address">
         <input style="margin-bottom: 16px;" type="password" placeholder="Password">
         <button class="login_button" type="button">Login</button>
-        <p class="or">or you can</p>
-        <button class="button_face" type="button"><img src="@/assets/images/Facebok.png" height="21px"> Continue with Facebook</button>
-        <button class="button_app" type="button"><img src="@/assets/images/Apple.png" height="21px">Continue with Apple</button>
-        <button class="button_google" type="button"><img src="@/assets/images/Google.png" height="21px">Continue with Google</button>
         <p class="need"> Need an Account? <a href=" " style="color: #3DCBB1">Sign Up</a></p>
 
 
@@ -41,68 +41,23 @@ export default {
 
 <style scoped>
 
-
-
-.close{
-  display: flex;
-  justify-content: space-between;
-  width: 352px;
+.Login_text .text{
+  color: black;
+  font-size: 22px;
+  font-family: "Ubuntu-bold", sytem ui;
+  margin-top: 70px;
 }
-
-.need{
+.join{
+  color: rgba(27, 27, 27, 0.6);
+  font-size: 16px;
+  font-family: "Ubuntu-regular", sytem ui;
+}
+.Login_text{
+  margin: 0 auto;
   text-align: center;
 }
-.button_face{
-  width: 352px;
-  height: 41px;
-  border-radius: 14px;
-  background-color: #4267B2;
-  color: #FFFFFF;
-  font-family: "Ubuntu-bold", sytem ui;
-  font-size: 16px;
-  border: none;
-  margin-bottom: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.button_app{
-  width: 352px;
-  height: 41px;
-  border-radius: 14px;
-  background-color: #1B1B1B;
-  color: #FFFFFF;
-  font-family: "Ubuntu-bold", sytem ui;
-  font-size: 16px;
-  border: none;
-  margin-bottom: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.button_google{
-  width: 352px;
-  height: 41px;
-  border-radius: 14px;
-  color: #1B1B1B;
-  font-family: "Ubuntu-bold", sytem ui;
-  background-color: #FFFFFF;
-  font-size: 16px;
-  border: 1px solid rgba(27, 27, 27, 0.1);
-  margin-bottom: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.or{
-  font-size: 14px;
-  font-family: "Ubuntu-regular", sytem ui;
-  color: black;
-  display: flex;
-  justify-content: end;
-  margin-bottom: 16px;
+.need{
+  text-align: center;
 }
 
 .login_button{
@@ -174,5 +129,22 @@ export default {
   border-top-left-radius: 10px;
   width: 750px;
 }
+input::placeholder{
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
 
+}
+input{
+  padding-left: 12px;
+}
+@media screen and (max-width: 1200px) {
+.left_side{
+  display: none;
+}
+
+}
+@media screen and (max-width: 880px) {
+
+}
 </style>
