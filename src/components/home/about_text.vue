@@ -99,30 +99,30 @@ h2{
   font-size: 14px;
   color: rgba(27, 27, 27, 0.6);
 }
-@media screen and (max-width: 1200px) {
-.about{
-  font-size: 14px;
-}
-  .left_side{
-    width: 80%;
+  @media screen and (max-width: 1200px) {
+  .about{
+    font-size: 14px;
   }
-  .right_side{
-    max-width: 70%;
-    display: flex;
-    margin: 35px auto;
-  }
+    .left_side{
+      width: 80%;
+    }
+    .right_side{
+      max-width: 70%;
+      display: flex;
+      margin: 35px auto;
+    }
 
 
 
-
-}
-@media screen and (max-width: 880px) {
-
-  .block{
-    display: flex;
-    flex-direction: column-reverse;
 
   }
+  @media screen and (max-width: 880px) {
 
-}
+    .block{
+      display: flex;
+      flex-direction: column-reverse;
+
+    }
+
+  }
 </style>
