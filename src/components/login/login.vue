@@ -8,20 +8,24 @@
         <div class="logo">
           <img height="43px" src="@/assets/images/logo.png">
           <p>EmpowerED</p>
-          <p style="color: black; margin-left: 180px" @click="closeLogin">Close</p>
+          <div style="flex: auto; text-align: end">
+            <p style="color: black;" @click="closeLogin">Close</p>
           </div>
+        </div>
         <div class="Login_text">
           <p class="text">Login</p>
           <p class="join">Join us and get more benefits. We promise to keep your data safely. </p>
         </div>
-
-        <input style="margin-bottom: 8px; margin-top: 24px" type="email" placeholder="Email Address">
-        <input style="margin-bottom: 16px;" type="password" placeholder="Password">
+        <div>
+          <input style="margin-bottom: 8px; margin-top: 24px" type="email" placeholder="Email Address">
+        </div>
+        <div>
+          <input style="margin-bottom: 16px;" type="password" placeholder="Password">
+        </div>
         <button class="login_button" type="button">Login</button>
         <p class="need"> Need an Account? <a href=" " style="color: #3DCBB1">Sign Up</a></p>
-
-
-      </div>    </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -76,6 +80,9 @@ export default {
   border-radius: 3px;
   border: none;
   background-color: rgba(249, 249, 249, 0.9);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .right_side input:focus{
   border: none;
@@ -84,24 +91,26 @@ export default {
 .right_side p{
   margin-top: 13px;
 }
-.right_side{
+.right_side {
+  flex: 1;
   font-family: "Ubuntu-regular", sytem ui;
   font-size: 16px;
   line-height: 24px;
   color: rgba(27, 27, 27, 0.6);
-  width: 352px;
-  height: 509px;
-  padding-bottom: 21px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-left: 24px;
+  padding: 20px 24px 21px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.left_side {
+  flex: 2;
 }
 .logo{
   display: flex;
   align-items: center;
   font-size: 14px;
   font-family: "Ubuntu-bold", sytem ui;
-  width: 135px;
+  width: 100%;
   justify-content: space-between;
   color: black;
 }
@@ -125,15 +134,14 @@ export default {
   display: flex;
 }
 .left_side img{
+  width: 100%;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  width: 750px;
 }
 input::placeholder{
   font-family: "Ubuntu-regular", sytem ui;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4);
-
 }
 input{
   padding-left: 12px;
@@ -142,9 +150,14 @@ input{
 .left_side{
   display: none;
 }
-
+.right_side {
+  text-align: center;
+  width: 100%;
 }
-@media screen and (max-width: 880px) {
+.login-content-container {
+  width: 90%;
+  display: block;
+}
 
 }
 </style>

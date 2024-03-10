@@ -9,7 +9,7 @@
       </div>
       <div class="space-container"></div>
       <div class="login-button"  @click="openLogin">Login</div>
-      <div class="register-button">Sign Up</div>
+      <div class="register-button" @click="openSignUp">Sign Up</div>
     </div>
   </div>
 </template>
@@ -24,6 +24,9 @@ export default {
   methods: {
     openLogin() {
       App.methods.openLogin();
+    },
+    openSignUp() {
+      App.methods.openSignup();
     }
   }
 }
