@@ -32,7 +32,8 @@
     <a href="#">Reviews</a>
   </div>
     <div class="course">
-      <div class="item">
+      <div class="item first">
+        <div class="display">
         <img src="@/assets/images/1courseimg.png" class="first_img">
         <div class="text">
           <p class="name_course">Basic UI/UX Designer</p>
@@ -43,8 +44,10 @@
           </div>
         </div>
       </div>
+      </div>
 
-        <div class="item">
+        <div class="item second">
+          <div class="display">
           <img src="@/assets/images/1courseimg.png" class="first_img">
           <div class="text">
             <p class="name_course">Basic UI/UX Designer</p>
@@ -55,9 +58,9 @@
             </div>
           </div>
         </div>
-
-      <div class="item">
-
+    </div>
+      <div class="item third">
+        <div class="display">
           <img src="@/assets/images/1courseimg.png" class="first_img">
           <div class="text">
             <p class="name_course">Basic UI/UX Designer</p>
@@ -67,7 +70,7 @@
               <p>4.8 <img src="@/assets/images/2stars.png" class="img_star"> <span>(534)</span> </p>
             </div>
           </div>
-
+      </div>
       </div>
 
     </div>
@@ -106,6 +109,16 @@ export default {
 </script>
 
 <style scoped>
+.first{
+  margin-right: 5px;
+}
+.second{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.third{
+  margin-left: 5px;
+}
 .stars{
   font-family: "Ubuntu-bold", sytem ui;
   font-size: 12px;
@@ -125,6 +138,11 @@ export default {
   font-size: 13px;
   font-family: "Ubuntu-regular", sytem ui;
 
+}
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .name_course{
   font-size: 16px;
@@ -148,11 +166,15 @@ export default {
   margin-left: 6px;
 }
 .item{
-  display: flex;
+  flex: 1;
   padding: 12px 80px 12px 12px;
   border-radius: 16px;
   box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
   cursor: pointer;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
 
 .course{
