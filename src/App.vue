@@ -1,7 +1,7 @@
 <template>
   <div id="overlay-login-container" class="hide-container"><login-component /></div>
   <div id="overlay-signup-container" class="hide-container">
-    <sign_up-component></sign_up-component>
+    <sign_up-component />
   </div>
   <router-view />
 </template>
@@ -28,8 +28,8 @@ export default {
     document.getElementById("overlay-signup-container").classList.add("show-container")
   },
    closeSignUp(){
-   document.getElementById("overlay-signup-container").classList.remove("hide-container")
-   document.getElementById("overlay-signup-container").classList.add("show-container")
+   document.getElementById("overlay-signup-container").classList.remove("show-container")
+   document.getElementById("overlay-signup-container").classList.add("hide-container")
     }
   }
 }

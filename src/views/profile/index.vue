@@ -20,13 +20,57 @@
           <p class="under_number">Reviews</p>
         </div>
       </div>
-
     </div>
 
 
+
+
   </div>
+  <div class="list_navbar">
+    <a href="#">About</a>
+    <a class="active" href="#">Courses</a>
+    <a href="#">Reviews</a>
+  </div>
+    <div class="course">
+      <div class="item">
+        <img src="@/assets/images/1courseimg.png" class="first_img">
+        <div class="text">
+          <p class="name_course">Basic UI/UX Designer</p>
+          <p class="author">Azamat Baimatov</p>
+          <div class="price">$145 <s>160</s></div>
+          <div class="stars">
+            <p>4.8 <img src="@/assets/images/2stars.png" class="img_star"> <span>(534)</span> </p>
+          </div>
+        </div>
+      </div>
 
+        <div class="item">
+          <img src="@/assets/images/1courseimg.png" class="first_img">
+          <div class="text">
+            <p class="name_course">Basic UI/UX Designer</p>
+            <p class="author">Azamat Baimatov</p>
+            <div class="price">$145 <s>160</s></div>
+            <div class="stars">
+              <p>4.8 <img src="@/assets/images/2stars.png" class="img_star"> <span>(534)</span> </p>
+            </div>
+          </div>
+        </div>
 
+      <div class="item">
+
+          <img src="@/assets/images/1courseimg.png" class="first_img">
+          <div class="text">
+            <p class="name_course">Basic UI/UX Designer</p>
+            <p class="author">Azamat Baimatov</p>
+            <div class="price">$145 <s>160</s></div>
+            <div class="stars">
+              <p>4.8 <img src="@/assets/images/2stars.png" class="img_star"> <span>(534)</span> </p>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
   </div>
   <footer-block-component />
 </template>
@@ -62,6 +106,81 @@ export default {
 </script>
 
 <style scoped>
+.stars{
+  font-family: "Ubuntu-bold", sytem ui;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.stars span{
+  color: rgba(0, 0, 0, 0.45);
+}
+.price{
+  font-size: 14px;
+  font-family: "Ubuntu-bold", sytem ui;
+  margin-bottom: 10px;
+}
+.price s{
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 13px;
+  font-family: "Ubuntu-regular", sytem ui;
+
+}
+.name_course{
+  font-size: 16px;
+  font-family: "Ubuntu-regular", sytem ui;
+  margin-bottom: 5px;
+}
+.author{
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
+.img_star{
+  height: 12px;
+}
+.first_img{
+  width: 86px;
+  margin-right: 6px;
+}
+.text{
+  margin-left: 6px;
+}
+.item{
+  display: flex;
+  padding: 12px 80px 12px 12px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.course{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 36px;
+}
+.list_navbar{
+
+  display: flex;
+  align-items: center;
+  width: 25%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 14px;
+}
+.active{
+  color: #266de8;
+  border-bottom: 1px solid #266de8;
+}
+
 .main{
   max-width: 90%;
   margin: 0 auto;
@@ -70,24 +189,27 @@ export default {
   height: 254px;
   width: 40%;
   margin: 0 auto;
-  margin-top: 114px;
+  margin-top: 40px;
   background-color: #5e94ff;
   border-radius: 24px;
 }
 .block_img{
   width: 72px;
-  margin-top: 16px;
+  margin-top: 40px;
 }
 .in_block{
   text-align: center;
 }
 .name{
-  margin-top: 15px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Ubuntu-bold", sytem ui;
+  color: white;
 }
 .under_name{
   font-family: "Ubuntu-regular", sytem ui;
   font-size: 12px;
-  color: #697B7A;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 16px;
 }
 .last_info{
@@ -96,6 +218,16 @@ export default {
   align-items: center;
   justify-content: space-between;
   display: flex;
+}
+.number{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Ubuntu-bold", sytem ui;
+}
+.under_number{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Ubuntu-regular", sytem ui;
 }
 @media screen and (max-width: 1200px) {
 

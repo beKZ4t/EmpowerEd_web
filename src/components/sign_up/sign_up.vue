@@ -8,20 +8,33 @@
         <div class="logo">
           <img height="43px" src="@/assets/images/logo.png">
           <p>EmpowerED</p>
-          <p style="color: black; margin-left: 180px" @click="closeLogin">Close</p>
+          <p style="color: black; margin-left: 180px" @click="closeSignUp">Close</p>
         </div>
-        <p>Join us and get more benefits. We promise to keep your data safely. </p>
-        <input style="margin-bottom: 8px; margin-top: 24px" type="email" placeholder="Email Address">
-        <input style="margin-bottom: 16px;" type="password" placeholder="Password">
+        <div class="Login_text">
+          <p class="text">Sign up</p>
+          <p class="join">Join us and get more benefits. We promise to keep your data safely. </p>
+        </div>
+        <div>
+          <input style="margin-bottom: 16px; margin-top: 24px" type="email" placeholder="Email Address">
+        </div>
+        <div>
+          <input style="margin-bottom: 16px;" type="number" placeholder="Phone number">
+        </div>
+        <div>
+          <input style="margin-bottom: 16px;" type="password" placeholder="Password">
+        </div>
+        <div>
+          <input style="margin-bottom: 16px;" type="number" placeholder="Confirm password">
+        </div>
+
+
+
         <button class="login_button" type="button">Create Account</button>
-        <p class="or">or you can</p>
-        <button class="button_face" type="button"><img src="@/assets/images/Facebok.png" height="21px"> Continue with Facebook</button>
-        <button class="button_app" type="button"><img src="@/assets/images/Apple.png" height="21px">Continue with Apple</button>
-        <button class="button_google" type="button"><img src="@/assets/images/Google.png" height="21px">Continue with Google</button>
-        <p class="need"> Already have an Account? <a href="#" style="color: #3DCBB1">Login</a></p>
+        <p class="need"> Have an account?  <a href="#" style="color: #3DCBB1">Login</a></p>
 
 
-      </div>    </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -40,66 +53,24 @@ export default {
 </script>
 
 <style scoped>
-.close{
-  display: flex;
-  justify-content: space-between;
-  width: 352px;
+.Login_text .text{
+  color: black;
+  font-size: 22px;
+  font-family: "Ubuntu-bold", sytem ui;
+  margin-top: 20px;
+}
+.join{
+  color: rgba(27, 27, 27, 0.6);
+  font-size: 16px;
+  font-family: "Ubuntu-regular", sytem ui;
+}
+.Login_text{
+  margin: 0 auto;
+  text-align: center;
 }
 
 .need{
   text-align: center;
-}
-.button_face{
-  width: 352px;
-  height: 41px;
-  border-radius: 14px;
-  background-color: #4267B2;
-  color: #FFFFFF;
-  font-family: "Ubuntu-bold", sytem ui;
-  font-size: 16px;
-  border: none;
-  margin-bottom: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.button_app{
-  width: 352px;
-  height: 41px;
-  border-radius: 14px;
-  background-color: #1B1B1B;
-  color: #FFFFFF;
-  font-family: "Ubuntu-bold", sytem ui;
-  font-size: 16px;
-  border: none;
-  margin-bottom: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.button_google{
-  width: 352px;
-  height: 41px;
-  border-radius: 14px;
-  color: #1B1B1B;
-  font-family: "Ubuntu-bold", sytem ui;
-  background-color: #FFFFFF;
-  font-size: 16px;
-  border: 1px solid rgba(27, 27, 27, 0.1);
-  margin-bottom: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.or{
-  font-size: 14px;
-  font-family: "Ubuntu-regular", sytem ui;
-  color: black;
-  display: flex;
-  justify-content: end;
-  margin-bottom: 16px;
 }
 
 .login_button{
@@ -113,11 +84,25 @@ export default {
   font-family: "Ubuntu-bold", sytem ui;
 }
 .right_side input{
-  width: 352px;
-  height: 41px;
-  border-radius: 3px;
-  border: none;
-  background-color: rgba(249, 249, 249, 0.9);
+   width: 352px;
+   height: 41px;
+   border-radius: 3px;
+   border: none;
+   background-color: rgba(249, 249, 249, 0.9);
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+.right_side {
+  flex: 1;
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(27, 27, 27, 0.6);
+  padding: 20px 24px 21px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .right_side input:focus{
   border: none;
@@ -156,6 +141,9 @@ export default {
   position: fixed;
   cursor: pointer;
 }
+.left_side {
+  flex: 2;
+}
 .signup-content-container {
   background: white;
   margin-left: auto;
@@ -170,6 +158,22 @@ export default {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   width: 750px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .left_side{
+    display: none;
+  }
+  .right_side {
+    text-align: center;
+    width: 100%;
+  }
+  .signup-content-container {
+    width: 90%;
+    display: block;
+  }
+
 }
 
 </style>
