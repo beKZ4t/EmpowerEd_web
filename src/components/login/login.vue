@@ -22,8 +22,8 @@
         <div>
           <input style="margin-bottom: 16px;" type="password" placeholder="Password">
         </div>
-        <button class="login_button" type="button">Login</button>
-        <p class="need"> Need an Account? <a href=" " style="color: #3DCBB1">Sign Up</a></p>
+        <button class="login_button" type="button" @click="dologin">Login</button>
+        <p class="need"> Need an Account? <a href=" " style="color: #3DCBB1; cursor: pointer" @click="this.$router.push('/profile')">Sign Up</a></p>
       </div>
     </div>
   </div>
@@ -38,6 +38,10 @@ export default {
   methods: {
     closeLogin() {
       App.methods.closeLogin();
+    },
+    dologin(){
+      this.$router.push('/profile');
+      this.closeLogin();
     }
   }
 }
@@ -73,6 +77,7 @@ export default {
   border-radius: 14px;
   font-size: 16px;
   font-family: "Ubuntu-bold", sytem ui;
+  cursor: pointer;
 }
 .right_side input{
   width: 352px;

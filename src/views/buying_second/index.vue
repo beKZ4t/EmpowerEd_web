@@ -60,6 +60,9 @@ export default {
     About_textComponent, Header_textComponent, Search_lastComponent,
     Type_courseComponent,
      FooterBlockComponent, HeaderComponent},
+  mounted() {
+    window.scrollTo(0, 0);
+  }
 
 
 }

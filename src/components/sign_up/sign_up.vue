@@ -29,8 +29,8 @@
 
 
 
-        <button class="login_button" type="button">Create Account</button>
-        <p class="need"> Have an account?  <a href="#" style="color: #3DCBB1">Login</a></p>
+        <button class="login_button" type="button" @click="doSignup">Create Account</button>
+        <p class="need"> Have an account?  <a href="#" style="color: #3DCBB1"  @click="openLogin">Login</a></p>
 
 
       </div>
@@ -47,6 +47,13 @@ export default {
   methods: {
     closeSignUp() {
       App.methods.closeSignUp();
+    },
+    openLogin() {
+      App.methods.openLogin();
+    },
+    doSignup(){
+      this.$router.push('/profile');
+      this.closeSignUp();
     }
   }
 }
@@ -82,6 +89,7 @@ export default {
   border-radius: 14px;
   font-size: 16px;
   font-family: "Ubuntu-bold", sytem ui;
+  cursor: pointer;
 }
 .right_side input{
    width: 352px;

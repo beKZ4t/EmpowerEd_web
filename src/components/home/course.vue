@@ -1,5 +1,5 @@
 <template>
-  <div class="course-list-container">
+  <div @click="this.$router.push('/buying')" class="course-list-container" >
     <img class="banner-image" :src="course.image">
     <p class="name-text">{{course.name}}</p>
     <div class="teacher-container">
@@ -45,6 +45,7 @@ export default {
   display: inline-block;
   vertical-align: middle;
   margin-right: 40px;
+  cursor: pointer;
 }
 .banner-image {
   width: 285px;
