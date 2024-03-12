@@ -1,15 +1,16 @@
 <template>
   <div class="outer-container">
-    <div class="main-container flex-container" @click="this.$router.push('/')">
-      <img class="logo-image" src="@/assets/images/logo.png">
-      <p class="app-name">EmpowerED</p>
+    <div class="main-container flex-container" >
+      <img class="logo-image" src="@/assets/images/logo.png" @click="this.$router.push('/')">
+      <p class="app-name" @click="this.$router.push('/')">EmpowerED</p>
       <div class="search-container">
         <input type="text" placeholder="Search for course">
         <img src="@/assets/images/Search.png">
       </div>
       <div class="space-container"></div>
-      <div class="login-button"  @click="openLogin">Login</div>
-      <div class="register-button" @click="openSignUp">Sign Up</div>
+      <a class="all_course" @click="this.$router.push('/my_course')">Course</a>
+      <a class="profile" @click="this.$router.push('/profile')" >My Account</a>
+
     </div>
   </div>
 </template>
@@ -17,22 +18,26 @@
 <script>
 
 
-import App from "@/App.vue";
 
 export default {
-  name: "header-component",
-  methods: {
-    openLogin() {
-      App.methods.openLogin();
-    },
-    openSignUp() {
-      App.methods.openSignup();
-    }
-  }
+  name: "navbar_for_login-component",
+
 }
 </script>
 
 <style scoped>
+.all_course{
+  margin-right: 30px;
+  font-family: "Ubuntu-regular", sytem ui;
+  font-size: 18px;
+  cursor: pointer;
+}
+.profile{
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Ubuntu-bold", sytem ui;
+
+}
 .outer-container {
   margin-top: 20px;
   width: 90%;
@@ -49,35 +54,19 @@ export default {
 .main-container {
   width: 90%;
   margin-left: 5%;
-  cursor: pointer;
+
 }
-.login-button {
-  color: #1B1B1BE5;
-  border: 1px solid #1B1B1BE5;
-  border-radius: 10px;
-  font-size: 14px;
-  font-family: Ubuntu-bold, system-ui;
-  padding: 12px 24px;
-  cursor: pointer;
-}
-.register-button {
-  margin-left: 20px;
-  background: #1365E1;
-  border-radius: 10px;
-  font-size: 14px;
-  color: white;
-  padding: 12px 24px;
-  font-family: Ubuntu-bold, system-ui;
-  cursor: pointer;
-}
+
 .logo-image {
   height: 43px;
+  cursor: pointer;
 }
 .app-name {
   margin-left: 10px;
   color: black;
   font-size: 18px;
   font-family: Ubuntu-bold, system-ui;
+  cursor: pointer;
 }
 .flex-container {
   display: -webkit-flex;

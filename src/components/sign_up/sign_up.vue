@@ -18,13 +18,13 @@
           <input style="margin-bottom: 16px; margin-top: 24px" type="email" placeholder="Email Address">
         </div>
         <div>
-          <input style="margin-bottom: 16px;" type="number" placeholder="Phone number">
+          <input style="margin-bottom: 16px;" type="text" placeholder="Phone number">
         </div>
         <div>
           <input style="margin-bottom: 16px;" type="password" placeholder="Password">
         </div>
         <div>
-          <input style="margin-bottom: 16px;" type="number" placeholder="Confirm password">
+          <input style="margin-bottom: 16px;" type="text" placeholder="Confirm password">
         </div>
 
 

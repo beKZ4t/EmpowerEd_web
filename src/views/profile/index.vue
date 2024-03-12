@@ -1,5 +1,5 @@
 <template>
-  <header-component />
+  <navbar_for_login-component />
   <div class="main">
   <div class="block">
     <div class="in_block">
@@ -32,7 +32,7 @@
     <a href="#">Reviews</a>
   </div>
     <div class="course">
-      <div class="item first">
+      <div class="item first" @click="this.$router.push('/paind')">
         <div class="display">
         <img src="@/assets/images/1courseimg.png" class="first_img">
         <div class="text">
@@ -46,7 +46,7 @@
       </div>
       </div>
 
-        <div class="item second">
+        <div class="item second" @click="this.$router.push('/paind')">
           <div class="display">
           <img src="@/assets/images/1courseimg.png" class="first_img">
           <div class="text">
@@ -59,7 +59,7 @@
           </div>
         </div>
     </div>
-      <div class="item third">
+      <div class="item third" @click="this.$router.push('/paind')">
         <div class="display">
           <img src="@/assets/images/1courseimg.png" class="first_img">
           <div class="text">
@@ -93,12 +93,16 @@ import Search_lastComponent from "@/components/home/search_last.vue";
 import Header_textComponent from "@/components/home/header_text.vue";
 import About_textComponent from "@/components/home/about_text.vue";
 import Blue_textComponent from "@/components/home/blue_text.vue";
+import NavbarComponent from "@/components/navbar/navbar.vue";
+import Navbar_for_loginComponent from "@/components/navbar_second/navbar_for_login.vue";
 
 
 
 export default {
   name: "index",
   components: {
+    Navbar_for_loginComponent,
+    NavbarComponent,
     Blue_textComponent,
     About_textComponent, Header_textComponent, Search_lastComponent,
     Type_courseComponent,

@@ -1,6 +1,6 @@
 <template>
 
-    <div class="course-list-container">
+    <div class="course-list-container" style="cursor: pointer" @click="this.$router.push('/buying')">
       <img class="banner-image" :src="course.image">
       <p class="name-text">{{course.name}}</p>
       <div class="teacher-container">
