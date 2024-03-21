@@ -1,18 +1,7 @@
 <template>
   <header-component />
   <target-component />
-  <div class="main">
-    <div class="item active">All Recommendation</div>
-    <div class="item">Adobe Illustrator</div>
-    <div class="item">Adobe Photoshop</div>
-    <div class="item">UI Design</div>
-    <div class="item">Web Programming</div>
-    <div class="item">Java</div>
-    <div class="item">Object oriented programming</div>
-    <div class="item">Spring Boot</div>
-    <div class="item">Angular</div>
-
-  </div>
+  <categories-component />
   <course-block-component v-for="courseBlock in courseBlocks" :key="courseBlock" :course-block="courseBlock"/>
   <search-block-component></search-block-component>
   <footer-block-component></footer-block-component>
@@ -27,10 +16,12 @@ import CourseBlockComponent from "@/components/home/course_block.vue";
 import SearchBlock from "@/components/home/search-block.vue";
 import SearchBlockComponent from "@/components/home/search-block.vue";
 import FooterBlockComponent from "@/components/home/footer_block.vue";
+import CategoriesComponent from "@/components/home/categories.vue";
 
 export default {
   name: "index",
   components: {
+    CategoriesComponent,
     FooterBlockComponent,
     SearchBlockComponent, SearchBlock, CourseBlockComponent, TargetComponent, HeaderComponent},
   data() {
