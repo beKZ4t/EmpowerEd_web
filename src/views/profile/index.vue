@@ -6,6 +6,33 @@
       <img src="@/assets/images/Ellipse%202047.png" class="block_img">
       <p class="name">Darkhan Yermakhan</p>
       <p class="under_name">Senior UI/UX Designer</p>
+      <div class="under_block">
+        <div @click="this.$router.push('/payments')" class="items">
+          <img src="@/assets/images/payment.png" class="image_1">
+          <p>Payments</p>
+          <div class="space"></div>
+          <img src="@/assets/images/right_arrow.png" class="right_arrow">
+        </div>
+        <div @click="this.$router.push('/certificate')" class="items">
+          <img src="@/assets/images/certif.png" class="image_1">
+          <p>Certificate</p>
+          <div class="space"></div>
+          <img src="@/assets/images/right_arrow.png" class="right_arrow">
+        </div>
+        <div class="items">
+          <img src="@/assets/images/setting.png" class="image_1">
+          <p>Settings</p>
+          <div class="space"></div>
+          <img src="@/assets/images/right_arrow.png" class="right_arrow">
+        </div>
+        <div class="items" @click="logout">
+          <img src="@/assets/images/logout.png" class="image_1">
+          <p>Logout</p>
+          <div class="space"></div>
+          <img src="@/assets/images/right_arrow.png" class="right_arrow">
+        </div>
+      </div>
+
       <div class="last_info">
         <div class="left_side">
           <p class="number">5</p>
@@ -75,7 +102,7 @@
 
     </div>
   </div>
-  <footer-block-component />
+
 </template>
 
 
@@ -113,6 +140,25 @@ export default {
 </script>
 
 <style scoped>
+.under_block{
+  margin-top: 40px;
+
+}
+.items p{
+  margin-left: 20px;
+  color: white;
+  font-family: Ubuntu-regular, system-ui;
+}
+.space{
+  flex: auto;
+}
+.image_1{
+  padding: 11px;
+  background-color: #ffffff;
+  height: 30px;
+  border-radius: 16px;
+}
+
 .first{
   margin-right: 5px;
 }
@@ -169,9 +215,9 @@ export default {
 .text{
   margin-left: 6px;
 }
-.item{
+.items{
   flex: 1;
-  padding: 12px 80px 12px 12px;
+  padding: 12px 20px 12px 12px;
   border-radius: 16px;
   box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
   cursor: pointer;
@@ -179,6 +225,7 @@ export default {
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
+  align-items: center;
 }
 
 .course{
@@ -212,8 +259,8 @@ a{
   margin: 0 auto;
 }
 .block{
-  height: 254px;
-  width: 40%;
+  height: 600px;
+  width: 30%;
   margin: 0 auto;
   margin-top: 40px;
   background-color: #5e94ff;
@@ -244,6 +291,7 @@ a{
   align-items: center;
   justify-content: space-between;
   display: flex;
+  margin-top: 30px;
 }
 .number{
   font-size: 16px;

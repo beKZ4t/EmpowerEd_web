@@ -7,7 +7,7 @@
       <p class="name_cer">Certificate</p>
     </div>
     <div class="course">
-      <div class="item first" @click="this.$router.push('/paind')">
+      <div class="item first">
         <div class="display">
           <img src="@/assets/images/1courseimg.png" class="first_img">
           <div class="text">
@@ -20,26 +20,26 @@
         </div>
       </div>
 
-      <div class="item second" @click="this.$router.push('/paind')">
+      <div class="item second">
         <div class="display">
           <img src="@/assets/images/1courseimg.png" class="first_img">
           <div class="text">
             <p class="name_course">Basic UI/UX Designer</p>
             <p class="author">Azamat Baimatov</p>
             <p class="yellow">Completed!</p>
-            <div class="button">See Certificate</div>
+            <div class="button"  @click="this.$router.push('/show_certificate')">See Certificate</div>
 
           </div>
         </div>
       </div>
-      <div class="item third" @click="this.$router.push('/paind')">
+      <div class="item third">
         <div class="display">
           <img src="@/assets/images/1courseimg.png" class="first_img">
           <div class="text">
             <p class="name_course">Basic UI/UX Designer</p>
             <p class="author">Azamat Baimatov</p>
             <p class="yellow">Completed!</p>
-            <div class="button">See Certificate</div>
+            <div class="button" @click="this.$router.push('/show_certificate')">See Certificate</div>
           </div>
         </div>
       </div>
@@ -116,6 +116,7 @@ export default {
   font-family: "Ubuntu-regular", sytem ui;
   margin-top: 5px;
   border-radius: 12px;
+  cursor: pointer;
 }
 .first{
   margin-right: 5px;
@@ -127,25 +128,10 @@ export default {
 .third{
   margin-left: 5px;
 }
-.stars{
-  font-family: "Ubuntu-bold", sytem ui;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.icon{
-  height: 24px;
-}
 .stars span{
   color: rgba(0, 0, 0, 0.45);
 }
 
-.price{
-  font-size: 14px;
-  font-family: "Ubuntu-bold", sytem ui;
-  margin-bottom: 10px;
-}
 .price s{
   color: rgba(0, 0, 0, 0.45);
   font-size: 13px;
@@ -168,9 +154,7 @@ export default {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 5px;
 }
-.img_star{
-  height: 12px;
-}
+
 .first_img{
   width: 86px;
   margin-right: 6px;
@@ -183,7 +167,7 @@ export default {
   padding: 12px 80px 12px 12px;
   border-radius: 16px;
   box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
-  cursor: pointer;
+
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
